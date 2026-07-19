@@ -1278,21 +1278,21 @@ export default function BentoGrid() {
               onMouseEnter={e => handleMouseEnterCard(e, 4)}
               onMouseMove={e => handleMouseMoveCard(e, 4)}
               onMouseLeave={e => handleMouseLeaveCard(e, 4)}
-              className="bento-card bg-gradient-to-br from-slate-950/95 to-[#0b0e17]/95 border border-pink-200 rounded-[32px] p-6 flex flex-col justify-between shadow-2xl relative overflow-hidden group transition-all duration-200 cursor-default"
+              className="bento-card bg-white/60 backdrop-blur-xl border border-pink-200 rounded-[32px] p-6 flex flex-col justify-between shadow-2xl relative overflow-hidden group transition-all duration-200 cursor-default"
               style={{
-                backgroundImage: 'radial-gradient(circle 200px at var(--mouse-x, 0px) var(--mouse-y, 0px), rgba(245, 158, 11, 0.08), transparent 80%)'
+                backgroundImage: 'radial-gradient(circle 200px at var(--mouse-x, 0px) var(--mouse-y, 0px), rgba(244, 63, 94, 0.08), transparent 80%)'
               }}
             >
-              <div className="absolute top-0 right-0 w-32 h-32 bg-amber-500/5 rounded-full blur-[60px] pointer-events-none" />
+              <div className="absolute top-0 right-0 w-32 h-32 bg-pink-500/10 rounded-full blur-[60px] pointer-events-none" />
               <div>
-                <div className="p-3 bg-amber-500/10 border border-amber-500/20 text-amber-500 rounded-2xl inline-flex mb-6">
+                <div className="p-3 bg-pink-100 border border-pink-200 text-pink-600 rounded-2xl inline-flex mb-6">
                   <Award className="w-6 h-6" />
                 </div>
                 <h3 className="text-lg font-bold text-pink-600 mb-4">Honors & Awards</h3>
                 
                 <div className="space-y-4">
                   <div>
-                    <span className="text-[9px] text-amber-500 font-mono font-bold uppercase tracking-wider block">MSU Billings Math Department</span>
+                    <span className="text-[9px] text-pink-600 font-mono font-bold uppercase tracking-wider block">MSU Billings Math Department</span>
                     <h4 className="text-sm font-extrabold text-pink-600">Outstanding Scholar Award</h4>
                     <p className="text-slate-800 text-xs mt-0.5 leading-relaxed">Top academic honors in Mathematics & Data Science concentrations.</p>
                   </div>
