@@ -64,6 +64,7 @@ export default function BentoGrid() {
       desc: 'Built a local voice intelligence system featuring offline speech recognition, semantic vector retrieval (SQLite), and a desktop agent dashboard using Next.js and ONNX runtimes.',
       tech: ['Next.js', 'ONNX Runtime', 'SQLite', 'TypeScript', 'Tailwind CSS'],
       github: 'https://github.com/Ayjeren004/niko-os',
+      demo: 'http://localhost:3000',
       type: 'AI & Speech Recognition'
     },
     {
@@ -71,7 +72,8 @@ export default function BentoGrid() {
       tagline: 'High-Throughput VoIP Pipeline',
       desc: 'Designed and implemented a database ingestion pipeline validating 400,000+ operational records daily. Integrated Whisper AI models to automatically catalog metadata from 10,000+ customer call logs.',
       tech: ['Node.js', 'TypeScript', 'MySQL', 'Python', 'Whisper API'],
-      github: '#',
+      github: 'https://github.com/Ayjeren004/3cx-crm-simulator',
+      demo: 'https://ayjeren-crm-simulator.web.app',
       type: 'Data Engineering'
     },
     {
@@ -1157,11 +1159,13 @@ export default function BentoGrid() {
                   </div>
 
                   <div className="flex gap-4 pt-4 border-t border-slate-900/60">
-                    <a href={project.github} target="_blank" rel="noreferrer" className="flex items-center gap-2 text-xs text-slate-400 hover:text-white transition-colors">
-                      <Code className="w-3.5 h-3.5" /> Source Code
-                    </a>
                     {project.github !== '#' && (
-                      <a href="#" className="flex items-center gap-1.5 text-xs text-emerald-400 hover:text-emerald-300 transition-colors">
+                      <a href={project.github} target="_blank" rel="noreferrer" className="flex items-center gap-2 text-xs text-slate-400 hover:text-white transition-colors">
+                        <Code className="w-3.5 h-3.5" /> Source Code
+                      </a>
+                    )}
+                    {project.demo && (
+                      <a href={project.demo} target="_blank" rel="noreferrer" className="flex items-center gap-1.5 text-xs text-emerald-400 hover:text-emerald-300 transition-colors">
                         <ExternalLink className="w-3.5 h-3.5" /> Live Demo
                       </a>
                     )}
