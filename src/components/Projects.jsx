@@ -4,6 +4,16 @@ import { ExternalLink, Server, Database, Code2 } from 'lucide-react';
 
 const projects = [
   {
+    title: 'GreenConnect2: Eco-Social Network',
+    type: 'Featured Showcase Project',
+    description: 'A premium, gamified social platform for eco-conscious advocates. Built with a robust Laravel MVC architecture and a stunning Glassmorphism UI. Features an interactive Eco-Impact Dashboard and Eco-Gift Marketplace.',
+    tech: ['Laravel', 'PHP 8.5', 'SQLite', 'Bootstrap', 'Glassmorphism', 'Blade'],
+    icon: <Database className="w-8 h-8 text-emerald-400" />,
+    featured: true,
+    link: 'https://github.com/Ayjeren004/GreenConnect2',
+    repo: 'https://github.com/Ayjeren004/GreenConnect2'
+  },
+  {
     title: 'Enterprise Document AI (RAG Engine)',
     type: 'Featured Showcase Project',
     description: 'A production-grade Retrieval-Augmented Generation (RAG) system built to extract, index, and query unstructured business documents. Features a FastAPI backend, vector database integration, and a React dashboard.',
