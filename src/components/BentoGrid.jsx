@@ -1283,7 +1283,7 @@ export default function BentoGrid() {
                 backgroundImage: 'radial-gradient(circle 200px at var(--mouse-x, 0px) var(--mouse-y, 0px), rgba(244, 63, 94, 0.08), transparent 80%)'
               }}
             >
-              <div className="absolute top-0 right-0 w-32 h-32 bg-pink-500/10 rounded-full blur-[60px] pointer-events-none" />
+
               <div>
                 <div className="p-3 bg-pink-100 border border-pink-200 text-pink-600 rounded-2xl inline-flex mb-6">
                   <Award className="w-6 h-6" />
