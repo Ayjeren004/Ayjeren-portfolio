@@ -64,7 +64,7 @@ export default function BentoGrid() {
       desc: 'Built a local voice intelligence system featuring offline speech recognition, semantic vector retrieval (SQLite), and a desktop agent dashboard using Next.js and ONNX runtimes.',
       tech: ['Next.js', 'ONNX Runtime', 'SQLite', 'TypeScript', 'Tailwind CSS'],
       github: 'https://github.com/Ayjeren004/niko-os',
-      demo: 'http://localhost:3000',
+      demo: 'https://niko-os.vercel.app/case-study',
       type: 'AI & Speech Recognition'
     },
     {
