@@ -35,10 +35,10 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12">
           <div className="about-item bg-slate-800/50 p-8 rounded-2xl backdrop-blur-sm border border-slate-700/50">
             <p className="text-lg text-slate-300 leading-relaxed mb-6">
-              I am a Software Engineer with a BS in Mathematics (Data Science) and hands-on experience building AI-powered automation systems and user-centric web applications.
+              I originally got into coding to automate data analysis for my university math and data science research. Today, I'm a Software Engineer specializing in building full-stack applications and AI pipelines.
             </p>
             <p className="text-lg text-slate-300 leading-relaxed">
-              I specialize in architecting production-grade workflows using OpenAI, Claude, and Llama, and translating complex technical data into intuitive dashboards for non-technical teams. I thrive in fast-paced environments delivering high-impact, maintainable software.
+              I focus on practical problem solving—whether that means using local LLMs to process hundreds of thousands of telephony records, or integrating FastAPI with vector databases to search enterprise documents. I enjoy writing clean code and bridging the gap between complex backend systems and usable, intuitive interfaces.
             </p>
           </div>
           <div className="space-y-6">

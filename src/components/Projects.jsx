@@ -6,7 +6,7 @@ const projects = [
   {
     title: 'GreenConnect2: Eco-Social Network',
     type: 'Featured Showcase Project',
-    description: 'A premium, gamified social platform for eco-conscious advocates. Built with a robust Laravel MVC architecture and a stunning Glassmorphism UI. Features an interactive Eco-Impact Dashboard and Eco-Gift Marketplace.',
+    description: 'Full-stack social platform built with Laravel 11. Implemented a gamified points system using SQLite and designed a custom glassmorphism UI from scratch using vanilla CSS.',
     tech: ['Laravel', 'PHP 8.5', 'SQLite', 'Bootstrap', 'Glassmorphism', 'Blade'],
     icon: <Database className="w-8 h-8 text-emerald-400" />,
     featured: true,
@@ -16,7 +16,7 @@ const projects = [
   {
     title: 'Enterprise Document AI (RAG Engine)',
     type: 'Featured Showcase Project',
-    description: 'A production-grade Retrieval-Augmented Generation (RAG) system built to extract, index, and query unstructured business documents. Features a FastAPI backend, vector database integration, and a React dashboard.',
+    description: 'A Retrieval-Augmented Generation (RAG) system that extracts and indexes unstructured business documents. Built with a FastAPI backend connected to ChromaDB, serving a React-based search interface.',
     tech: ['Python', 'FastAPI', 'React', 'ChromaDB', 'LLMs', 'Tailwind'],
     icon: <Database className="w-8 h-8 text-indigo-400" />,
     featured: true,
@@ -26,7 +26,7 @@ const projects = [
   {
     title: 'AI Telephony & Sentiment Pipeline',
     type: 'Architecture Case Study',
-    description: 'Designed an asynchronous pipeline processing 400,000+ VoIP records. Utilized local Whisper models for transcription and Claude API for NLP-based sentiment analysis, feeding into a custom Flask analytics dashboard.',
+    description: 'Processed over 400,000 VoIP records using an asynchronous Python pipeline. Transcribed audio locally with Whisper and analyzed sentiment via the Claude API, displaying results on a custom Flask dashboard.',
     tech: ['Python', 'Whisper', 'Ollama', 'Claude API', 'Flask', 'MySQL'],
     icon: <Server className="w-8 h-8 text-blue-400" />,
     featured: true,
@@ -36,7 +36,7 @@ const projects = [
   {
     title: 'GPS Satellite Data Visualization',
     type: 'Academic Research',
-    description: 'Co-authored scientific research modeling environmental data. Developed high-fidelity 3D animations and visual dashboards to track GPS satellite transmission loss and transmissivity.',
+    description: 'Co-authored scientific research modeling environmental data. Built 3D visual dashboards to track and analyze GPS satellite transmission loss and transmissivity.',
     tech: ['Data Modeling', '3D Visualization', 'Data Science', 'Mathematics'],
     icon: <Code2 className="w-8 h-8 text-emerald-400" />,
     featured: false,
@@ -44,7 +44,7 @@ const projects = [
   {
     title: 'Niko OS',
     type: 'Interactive Web OS',
-    description: 'A fully interactive, web-based operating system experience showcasing advanced frontend architecture and state management.',
+    description: 'A web-based operating system UI built with React. Demonstrates complex frontend state management, windowing systems, and component architecture.',
     tech: ['React', 'Frontend', 'Vercel'],
     icon: <Server className="w-8 h-8 text-cyan-400" />,
     featured: true,
