@@ -1367,15 +1367,15 @@ export default function BentoGrid() {
                 <div className="space-y-4">
                   <div>
                     <span className="text-[9px] text-pink-600 font-mono font-bold uppercase tracking-wider block">HackerRank Certifications</span>
-                    <h4 className="text-xs font-bold text-slate-700 mt-1">SQL (Intermediate) • Aug 2024</h4>
-                    <h4 className="text-xs font-bold text-slate-700">Python (Basic) • Dec 2025</h4>
+                    <h4 className="text-sm font-extrabold text-pink-600 mt-1">SQL (Intermediate) • Aug 2024</h4>
+                    <h4 className="text-sm font-extrabold text-pink-600">Python (Basic) • Dec 2025</h4>
                   </div>
                   
                   <div className="h-px bg-pink-100" />
                   
                   <div>
-                    <span className="text-[9px] text-rose-600 font-mono font-bold uppercase tracking-wider block">Academic Research Paper</span>
-                    <h4 className="text-xs font-bold text-slate-700 mt-1">GPS Signal Attenuation Study</h4>
+                    <span className="text-[9px] text-pink-600 font-mono font-bold uppercase tracking-wider block">Academic Research Paper</span>
+                    <h4 className="text-sm font-extrabold text-pink-600 mt-1">GPS Signal Attenuation Study</h4>
                     <p className="text-slate-800 text-[10px] mt-0.5 leading-relaxed">
                       Co-authored statistical models mapping satellite signal degradation against precipitation records.
                     </p>
