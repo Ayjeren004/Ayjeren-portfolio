@@ -40,7 +40,10 @@ const projects = [
     tech: ['Data Modeling', '3D Visualization', 'Data Science', 'Mathematics'],
     icon: <Code2 className="w-8 h-8 text-rose-600" />,
     featured: false,
-    link: 'https://www.youtube.com/watch?v=FqIQtUu4WA8'
+    links: [
+      { label: 'Watch TL Animation', url: 'https://www.youtube.com/watch?v=FqIQtUu4WA8' },
+      { label: 'Watch TR Animation', url: 'https://www.youtube.com/watch?v=5HvX5tV4g90' }
+    ]
   },
   {
     title: 'Niko OS',
@@ -117,8 +120,18 @@ const Projects = () => {
                   ))}
                 </div>
 
-                {project.featured && (
-                  <div className="flex gap-4 pt-4 border-t border-pink-200/50">
+                {project.links && (
+                  <div className="flex gap-4 pt-4 border-t border-pink-200/50 flex-wrap">
+                    {project.links.map((link, idx) => (
+                      <a key={idx} href={link.url} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-rose-500 hover:text-indigo-300 transition-colors">
+                        <ExternalLink className="w-4 h-4" /> {link.label}
+                      </a>
+                    ))}
+                  </div>
+                )}
+
+                {project.featured && !project.links && (
+                  <div className="flex gap-4 pt-4 border-t border-pink-200/50 flex-wrap">
                     <a href={project.repo} className="flex items-center gap-2 text-sm text-slate-800 hover:text-pink-600 transition-colors">
                       <Code2 className="w-4 h-4" /> Source Code
                     </a>

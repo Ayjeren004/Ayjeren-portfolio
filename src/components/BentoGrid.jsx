@@ -1376,7 +1376,10 @@ export default function BentoGrid() {
                   
                   <div>
                     <span className="text-[9px] text-pink-600 font-mono font-bold uppercase tracking-wider block">Academic Research Paper</span>
-                    <a href="https://www.youtube.com/watch?v=FqIQtUu4WA8" target="_blank" rel="noopener noreferrer" className="text-sm font-extrabold text-pink-600 mt-1 hover:underline hover:text-pink-500 transition-colors inline-flex items-center gap-1">GPS Signal Attenuation Study <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg></a>
+                    <div className="flex flex-col gap-1 mt-1">
+                      <a href="https://www.youtube.com/watch?v=FqIQtUu4WA8" target="_blank" rel="noopener noreferrer" className="text-sm font-extrabold text-pink-600 hover:underline hover:text-pink-500 transition-colors inline-flex items-center gap-1">GPS TL Animation <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg></a>
+                      <a href="https://www.youtube.com/watch?v=5HvX5tV4g90" target="_blank" rel="noopener noreferrer" className="text-sm font-extrabold text-pink-600 hover:underline hover:text-pink-500 transition-colors inline-flex items-center gap-1">GPS TR Animation <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg></a>
+                    </div>
                     <p className="text-slate-800 text-[10px] mt-0.5 leading-relaxed">
                       Accepted for publication (Aug 2026, POS Journal). Co-authored statistical models mapping satellite signal degradation.
                     </p>
