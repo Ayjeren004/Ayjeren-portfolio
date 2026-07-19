@@ -10,7 +10,7 @@ const projects = [
     tech: ['Laravel', 'PHP 8.5', 'SQLite', 'Bootstrap', 'Glassmorphism', 'Blade'],
     icon: <Database className="w-8 h-8 text-emerald-400" />,
     featured: true,
-    link: 'https://github.com/Ayjeren004/GreenConnect2',
+    link: 'https://greenconnect2.onrender.com',
     repo: 'https://github.com/Ayjeren004/GreenConnect2'
   },
   {
