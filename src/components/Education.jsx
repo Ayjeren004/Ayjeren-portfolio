@@ -44,42 +44,42 @@ const Education = () => {
   }, []);
 
   return (
-    <section id="education" className="py-24 px-4 bg-slate-900/50" ref={sectionRef}>
+    <section id="education" className="py-24 px-4 bg-pink-100/50" ref={sectionRef}>
       <div className="max-w-6xl mx-auto w-full grid md:grid-cols-2 gap-12">
         <div>
-          <h2 className="edu-card text-3xl font-bold mb-8 text-white">Education</h2>
+          <h2 className="edu-card text-3xl font-bold mb-8 text-pink-600">Education</h2>
           <div className="space-y-6">
             {education.map((edu, idx) => (
-              <div key={idx} className="edu-card bg-slate-800/40 p-6 rounded-2xl border border-slate-700/50 backdrop-blur-sm">
-                <h3 className="text-xl font-semibold text-white">{edu.degree}</h3>
-                <p className="text-indigo-400 mt-1">{edu.school}</p>
-                <p className="text-slate-500 text-sm mt-2">{edu.date}</p>
+              <div key={idx} className="edu-card bg-white/40 p-6 rounded-2xl border border-pink-200/50 backdrop-blur-sm">
+                <h3 className="text-xl font-semibold text-pink-600">{edu.degree}</h3>
+                <p className="text-rose-500 mt-1">{edu.school}</p>
+                <p className="text-slate-800 text-sm mt-2">{edu.date}</p>
               </div>
             ))}
           </div>
         </div>
 
         <div>
-          <h2 className="edu-card text-3xl font-bold mb-8 text-white">Awards & Certifications</h2>
+          <h2 className="edu-card text-3xl font-bold mb-8 text-pink-600">Awards & Certifications</h2>
           <div className="space-y-6">
-            <div className="edu-card bg-slate-800/40 p-6 rounded-2xl border border-slate-700/50 backdrop-blur-sm">
-              <h3 className="text-lg font-semibold text-white mb-4">Certifications</h3>
+            <div className="edu-card bg-white/40 p-6 rounded-2xl border border-pink-200/50 backdrop-blur-sm">
+              <h3 className="text-lg font-semibold text-pink-600 mb-4">Certifications</h3>
               <ul className="space-y-3">
                 {certifications.map((cert, idx) => (
-                  <li key={idx} className="text-slate-300">
-                    <span className="font-medium">{cert.name}</span> <span className="text-slate-500 text-sm">— {cert.issuer} ({cert.date})</span>
+                  <li key={idx} className="text-slate-800">
+                    <span className="font-medium">{cert.name}</span> <span className="text-slate-800 text-sm">— {cert.issuer} ({cert.date})</span>
                   </li>
                 ))}
               </ul>
             </div>
             
-            <div className="edu-card bg-slate-800/40 p-6 rounded-2xl border border-slate-700/50 backdrop-blur-sm">
-              <h3 className="text-lg font-semibold text-white mb-4">Awards & Research</h3>
+            <div className="edu-card bg-white/40 p-6 rounded-2xl border border-pink-200/50 backdrop-blur-sm">
+              <h3 className="text-lg font-semibold text-pink-600 mb-4">Awards & Research</h3>
               <ul className="space-y-3">
                 {awards.map((award, idx) => (
-                  <li key={idx} className="text-slate-300">
+                  <li key={idx} className="text-slate-800">
                     <span className="font-medium text-indigo-300">{award.name}</span>
-                    <p className="text-sm text-slate-400 mt-1">{award.issuer}</p>
+                    <p className="text-sm text-slate-800 mt-1">{award.issuer}</p>
                   </li>
                 ))}
               </ul>

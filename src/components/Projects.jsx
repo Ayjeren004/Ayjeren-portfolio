@@ -8,7 +8,7 @@ const projects = [
     type: 'Featured Showcase Project',
     description: 'Full-stack social platform built with Laravel 11. Implemented a gamified points system using SQLite and designed a custom glassmorphism UI from scratch using vanilla CSS.',
     tech: ['Laravel', 'PHP 8.5', 'SQLite', 'Bootstrap', 'Glassmorphism', 'Blade'],
-    icon: <Database className="w-8 h-8 text-emerald-400" />,
+    icon: <Database className="w-8 h-8 text-rose-600" />,
     featured: true,
     link: 'https://greenconnect2.onrender.com',
     repo: 'https://github.com/Ayjeren004/GreenConnect2'
@@ -18,7 +18,7 @@ const projects = [
     type: 'Featured Showcase Project',
     description: 'A Retrieval-Augmented Generation (RAG) system that extracts and indexes unstructured business documents. Built with a FastAPI backend connected to ChromaDB, serving a React-based search interface.',
     tech: ['Python', 'FastAPI', 'React', 'ChromaDB', 'LLMs', 'Tailwind'],
-    icon: <Database className="w-8 h-8 text-indigo-400" />,
+    icon: <Database className="w-8 h-8 text-rose-500" />,
     featured: true,
     link: 'http://localhost:8000',
     repo: '#'
@@ -28,7 +28,7 @@ const projects = [
     type: 'Architecture Case Study',
     description: 'Processed over 400,000 VoIP records using an asynchronous Python pipeline. Transcribed audio locally with Whisper and analyzed sentiment via the Claude API, displaying results on a custom Flask dashboard.',
     tech: ['Python', 'Whisper', 'Ollama', 'Claude API', 'Flask', 'MySQL'],
-    icon: <Server className="w-8 h-8 text-blue-400" />,
+    icon: <Server className="w-8 h-8 text-rose-500" />,
     featured: true,
     link: 'http://localhost:5001',
     repo: '#'
@@ -38,7 +38,7 @@ const projects = [
     type: 'Academic Research',
     description: 'Co-authored scientific research modeling environmental data. Built 3D visual dashboards to track and analyze GPS satellite transmission loss and transmissivity.',
     tech: ['Data Modeling', '3D Visualization', 'Data Science', 'Mathematics'],
-    icon: <Code2 className="w-8 h-8 text-emerald-400" />,
+    icon: <Code2 className="w-8 h-8 text-rose-600" />,
     featured: false,
   },
   {
@@ -46,7 +46,7 @@ const projects = [
     type: 'Interactive Web OS',
     description: 'A web-based operating system UI built with React. Demonstrates complex frontend state management, windowing systems, and component architecture.',
     tech: ['React', 'Frontend', 'Vercel'],
-    icon: <Server className="w-8 h-8 text-cyan-400" />,
+    icon: <Server className="w-8 h-8 text-pink-600" />,
     featured: true,
     link: 'https://niko-os.vercel.app',
     repo: '#'
@@ -73,10 +73,10 @@ const Projects = () => {
   }, []);
 
   return (
-    <section id="projects" className="py-24 px-4 min-h-screen bg-slate-950" ref={sectionRef}>
+    <section id="projects" className="py-24 px-4 min-h-screen bg-pink-50" ref={sectionRef}>
       <div className="max-w-6xl mx-auto w-full">
-        <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">Featured Projects</h2>
-        <p className="text-slate-400 mb-12 max-w-2xl text-lg">
+        <h2 className="text-4xl md:text-5xl font-bold mb-4 text-pink-600">Featured Projects</h2>
+        <p className="text-slate-800 mb-12 max-w-2xl text-lg">
           A selection of production-grade systems and AI pipelines I've built, focusing on scalability, clean architecture, and real-world utility.
         </p>
         
@@ -86,42 +86,42 @@ const Projects = () => {
               key={idx} 
               className={`project-card group relative p-8 rounded-3xl backdrop-blur-sm border transition-all duration-300 flex flex-col h-full
                 ${project.featured 
-                  ? 'bg-indigo-900/20 border-indigo-500/50 hover:bg-indigo-900/30 lg:col-span-2 lg:flex-row gap-8 shadow-lg shadow-indigo-900/20' 
-                  : 'bg-slate-800/40 border-slate-700/50 hover:bg-slate-800/60'
+                  ? 'bg-rose-100/20 border-indigo-500/50 hover:bg-rose-100/30 lg:col-span-2 lg:flex-row gap-8 shadow-xl shadow-pink-100 shadow-rose-200/20' 
+                  : 'bg-white/40 border-pink-200/50 hover:bg-white/60'
                 }`}
             >
               <div className="mb-6 lg:mb-0 flex-shrink-0">
-                <div className="p-4 bg-slate-900/50 rounded-2xl inline-block border border-slate-700/50">
+                <div className="p-4 bg-pink-100/50 rounded-2xl inline-block border border-pink-200/50">
                   {project.icon}
                 </div>
               </div>
               
               <div className="flex-col flex flex-grow">
                 <div className="flex justify-between items-start mb-2">
-                  <span className="text-xs font-semibold tracking-wider text-indigo-400 uppercase bg-indigo-950/50 px-3 py-1 rounded-full border border-indigo-800/50">
+                  <span className="text-xs font-semibold tracking-wider text-rose-500 uppercase bg-rose-100/50 px-3 py-1 rounded-full border border-rose-300/50">
                     {project.type}
                   </span>
                 </div>
                 
-                <h3 className="text-2xl font-bold text-white mb-3 mt-2">{project.title}</h3>
-                <p className="text-slate-300 text-base leading-relaxed mb-6 flex-grow">
+                <h3 className="text-2xl font-bold text-pink-600 mb-3 mt-2">{project.title}</h3>
+                <p className="text-slate-800 text-base leading-relaxed mb-6 flex-grow">
                   {project.description}
                 </p>
                 
                 <div className="flex flex-wrap gap-2 mb-6 mt-auto">
                   {project.tech.map((t, i) => (
-                    <span key={i} className="text-xs text-slate-400 bg-slate-900/50 px-3 py-1 rounded-md border border-slate-700/50">
+                    <span key={i} className="text-xs text-slate-800 bg-pink-100/50 px-3 py-1 rounded-md border border-pink-200/50">
                       {t}
                     </span>
                   ))}
                 </div>
 
                 {project.featured && (
-                  <div className="flex gap-4 pt-4 border-t border-slate-700/50">
-                    <a href={project.repo} className="flex items-center gap-2 text-sm text-slate-300 hover:text-white transition-colors">
+                  <div className="flex gap-4 pt-4 border-t border-pink-200/50">
+                    <a href={project.repo} className="flex items-center gap-2 text-sm text-slate-800 hover:text-pink-600 transition-colors">
                       <Code2 className="w-4 h-4" /> Source Code
                     </a>
-                    <a href={project.link} className="flex items-center gap-2 text-sm text-indigo-400 hover:text-indigo-300 transition-colors">
+                    <a href={project.link} className="flex items-center gap-2 text-sm text-rose-500 hover:text-indigo-300 transition-colors">
                       <ExternalLink className="w-4 h-4" /> Live Demo
                     </a>
                   </div>

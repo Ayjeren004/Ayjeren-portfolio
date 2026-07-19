@@ -16,14 +16,14 @@ const Hero = () => {
 
   return (
     <section className="relative w-full h-screen flex flex-col justify-center items-center text-center px-4" ref={textRef}>
-      <div className="z-10 bg-slate-900/40 p-8 rounded-3xl backdrop-blur-sm border border-slate-800/50 shadow-2xl">
-        <h1 className="hero-text text-5xl md:text-7xl font-extrabold tracking-tight mb-4 text-white">
-          Hi, I'm <span className="bg-gradient-to-r from-blue-400 to-indigo-500 bg-clip-text text-transparent">Ayjeren</span>
+      <div className="z-10 bg-pink-100/40 p-8 rounded-3xl backdrop-blur-sm border border-pink-200/50 shadow-2xl">
+        <h1 className="hero-text text-5xl md:text-7xl font-extrabold tracking-tight mb-4 text-pink-600">
+          Hi, I'm <span className="bg-gradient-to-r from-pink-400 to-rose-600 bg-clip-text text-transparent">Ayjeren</span>
         </h1>
-        <h2 className="hero-text text-xl md:text-3xl text-slate-300 mb-8 max-w-2xl mx-auto font-light">
+        <h2 className="hero-text text-xl md:text-3xl text-slate-800 mb-8 max-w-2xl mx-auto font-light">
           Software Engineer & Data Scientist specializing in AI-powered automation and user-centric web applications.
         </h2>
-        <a href="#about" className="hero-text inline-block bg-indigo-600 hover:bg-indigo-700 transition-colors text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:shadow-indigo-500/30">
+        <a href="#about" className="hero-text inline-block bg-rose-400 hover:bg-rose-500 transition-colors text-pink-600 font-semibold py-3 px-8 rounded-full shadow-xl shadow-pink-100 hover:shadow-rose-400/50">
           Discover My Work
         </a>
       </div>

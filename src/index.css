@@ -4,6 +4,6 @@
 
 @layer base {
   body {
-    @apply bg-slate-900 text-slate-100 antialiased font-sans m-0 overflow-x-hidden;
+    @apply bg-pink-100 text-slate-800 antialiased font-sans m-0 overflow-x-hidden;
   }
 }

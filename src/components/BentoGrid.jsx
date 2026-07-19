@@ -447,10 +447,10 @@ export default function BentoGrid() {
   };
 
   return (
-    <div className="relative w-full min-h-screen bg-[#030712] text-slate-100 font-sans overflow-hidden">
+    <div className="relative w-full min-h-screen bg-pink-100 text-slate-800 font-sans overflow-hidden">
       
       {/* Tech Grid Pattern */}
-      <div className="absolute inset-0 bg-[linear-gradient(to_right,#0b0f19_1px,transparent_1px),linear-gradient(to_bottom,#0b0f19_1px,transparent_1px)] bg-[size:3.5rem_3.5rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] opacity-45 pointer-events-none" />
+      <div className="absolute inset-0 bg-[linear-gradient(to_right,#fbcfe8_1px,transparent_1px),linear-gradient(to_bottom,#fbcfe8_1px,transparent_1px)] bg-[size:3.5rem_3.5rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] opacity-45 pointer-events-none" />
 
       {/* Background color highlight blur */}
       <div className="absolute top-[-5%] left-[10%] w-[600px] h-[600px] bg-emerald-500/5 rounded-full blur-[140px] pointer-events-none" />
@@ -461,7 +461,7 @@ export default function BentoGrid() {
         {/* SECTION 1: ELEGANT HERO INTRO (Premium Glassmorphic Banner) */}
         <header 
           ref={el => cardsRef.current[7] = el}
-          className="bento-card py-12 px-8 md:py-16 md:px-16 flex flex-col md:flex-row gap-10 justify-between items-center bg-[#0b101f]/35 backdrop-blur-xl border border-slate-900/80 rounded-[40px] shadow-2xl relative overflow-hidden mb-16 mt-8 cursor-default"
+          className="bento-card py-12 px-8 md:py-16 md:px-16 flex flex-col md:flex-row gap-10 justify-between items-center bg-white/60 backdrop-blur-xl border border-pink-200/80 rounded-[40px] shadow-2xl relative overflow-hidden mb-16 mt-8 cursor-default"
           style={{
             backgroundImage: 'radial-gradient(circle 500px at var(--mouse-x, 0px) var(--mouse-y, 0px), rgba(16, 185, 129, 0.05), transparent 80%)'
           }}
@@ -471,41 +471,41 @@ export default function BentoGrid() {
           
           <div className="flex-1 space-y-6 text-center md:text-left relative z-10">
             <div className="flex flex-wrap items-center justify-center md:justify-start gap-3">
-              <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-950/30 border border-emerald-900/35 text-emerald-400 text-xs font-semibold uppercase tracking-wider">
-                <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+              <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-100 border border-emerald-200 text-emerald-700 text-xs font-semibold uppercase tracking-wider">
+                <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
                 Available for Roles
               </div>
-              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-950/80 border border-slate-900 text-slate-400 text-[10px] font-mono font-bold uppercase tracking-wider">
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-pink-50/80 border border-pink-200 text-slate-800 text-[10px] font-mono font-bold uppercase tracking-wider">
                 MSU Billings Honors Graduate
               </div>
             </div>
             
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-white leading-none">
-              Ayjeren <span className="bg-gradient-to-r from-emerald-400 via-cyan-400 to-indigo-400 bg-clip-text text-transparent">Kossekova</span>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-pink-600 leading-none">
+              Ayjeren <span className="bg-gradient-to-r from-pink-500 via-rose-500 to-pink-600 bg-clip-text text-transparent">Kossekova</span>
             </h1>
             
-            <h2 className="text-xl sm:text-2xl font-medium text-slate-300">
+            <h2 className="text-xl sm:text-2xl font-medium text-slate-800">
               Software Engineer & Data Scientist
             </h2>
             
-            <p className="text-slate-400 leading-relaxed max-w-xl text-sm sm:text-base">
+            <p className="text-slate-800 leading-relaxed max-w-xl text-sm sm:text-base">
               I specialize in engineering high-throughput backend data pipelines, deploying local AI speech runtimes, and structuring complex scientific databases. Leveraging a B.S. in Mathematics and Computer Programming, I bridge the gap between analytical algorithms and performant web applications.
             </p>
             
             <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 pt-4">
-              <a href="https://github.com/Ayjeren004" target="_blank" rel="noreferrer" className="p-3 bg-slate-950/80 hover:bg-slate-900 text-slate-400 hover:text-white rounded-2xl border border-slate-900 hover:border-slate-800 transition-all hover:-translate-y-0.5 duration-200">
+              <a href="https://github.com/Ayjeren004" target="_blank" rel="noreferrer" className="p-3 bg-pink-50/80 hover:bg-pink-100 text-slate-800 hover:text-pink-600 rounded-2xl border border-pink-200 hover:border-pink-200 transition-all hover:-translate-y-0.5 duration-200">
                 <GithubIcon className="w-5 h-5" />
               </a>
-              <a href="https://www.linkedin.com/in/ayjeren-kossekova" target="_blank" rel="noreferrer" className="p-3 bg-slate-950/80 hover:bg-slate-900 text-slate-400 hover:text-white rounded-2xl border border-slate-900 hover:border-slate-800 transition-all hover:-translate-y-0.5 duration-200">
+              <a href="https://www.linkedin.com/in/ayjeren-kossekova" target="_blank" rel="noreferrer" className="p-3 bg-pink-50/80 hover:bg-pink-100 text-slate-800 hover:text-pink-600 rounded-2xl border border-pink-200 hover:border-pink-200 transition-all hover:-translate-y-0.5 duration-200">
                 <LinkedinIcon className="w-5 h-5" />
               </a>
-              <a href="mailto:ayjeren.k.dev@gmail.com" className="p-3 bg-slate-950/80 hover:bg-slate-900 text-slate-400 hover:text-white rounded-2xl border border-slate-900 hover:border-slate-800 transition-all hover:-translate-y-0.5 duration-200">
+              <a href="mailto:ayjeren.k.dev@gmail.com" className="p-3 bg-pink-50/80 hover:bg-pink-100 text-slate-800 hover:text-pink-600 rounded-2xl border border-pink-200 hover:border-pink-200 transition-all hover:-translate-y-0.5 duration-200">
                 <Mail className="w-5 h-5" />
               </a>
               
-              <div className="h-6 w-px bg-slate-800 mx-2 hidden sm:block" />
+              <div className="h-6 w-px bg-white mx-2 hidden sm:block" />
               
-              <a href="/Resume_General.pdf" target="_blank" className="flex items-center gap-2 bg-gradient-to-r from-emerald-500 via-emerald-400 to-cyan-400 hover:brightness-110 text-slate-950 font-extrabold py-3 px-6 rounded-2xl transition-all shadow-lg shadow-emerald-500/10 hover:-translate-y-0.5 duration-200">
+              <a href="/Resume_General.pdf" target="_blank" className="flex items-center gap-2 bg-gradient-to-r from-pink-400 via-rose-400 to-pink-500 hover:brightness-110 text-white font-extrabold py-3 px-6 rounded-2xl transition-all shadow-xl shadow-pink-100 shadow-emerald-500/10 hover:-translate-y-0.5 duration-200">
                 <FileText className="w-4 h-4" />
                 Resume (CV)
               </a>
@@ -513,18 +513,18 @@ export default function BentoGrid() {
           </div>
           
           {/* Expensive Asymmetric Avatar Glow Frame */}
-          <div className="relative w-48 h-48 sm:w-56 sm:h-56 flex-shrink-0 flex items-center justify-center p-1 rounded-[38px] group transition-all duration-300">
+          <div className="relative w-52 h-52 sm:w-64 sm:h-64 flex-shrink-0 flex items-center justify-center p-1 rounded-[38px] group transition-all duration-300">
             {/* Glowing background halo */}
-            <div className="absolute -inset-1.5 bg-gradient-to-tr from-emerald-500 via-cyan-500 to-indigo-500 rounded-[40px] blur-lg opacity-25 group-hover:opacity-40 transition duration-500" />
+            <div className="absolute -inset-1.5 bg-gradient-to-tr from-pink-300 via-rose-400 to-pink-500 rounded-[40px] blur-lg opacity-25 group-hover:opacity-40 transition duration-500" />
             
             {/* Rotating boundary vector */}
-            <div className="absolute inset-0 rounded-[38px] border border-cyan-500/30 group-hover:scale-105 group-hover:border-emerald-400/40 transition-all duration-500" />
-            <div className="absolute inset-1 rounded-[34px] border border-dashed border-slate-800 group-hover:rotate-6 transition-all duration-1000" />
+            <div className="absolute inset-0 rounded-[38px] border border-cyan-500/30 group-hover:scale-105 group-hover:border-pink-500/40 transition-all duration-500" />
+            <div className="absolute inset-1 rounded-[34px] border border-dashed border-pink-200 group-hover:rotate-6 transition-all duration-1000" />
             
             {/* Image Canvas wrapper */}
-            <div className="w-full h-full rounded-[34px] overflow-hidden bg-slate-950 border border-slate-900/60 flex items-center justify-center relative z-10">
+            <div className="w-full h-full rounded-[34px] overflow-hidden bg-pink-50 border border-pink-200/60 flex items-center justify-center relative z-10">
               <img 
-                src="/avatar.jpg?v=2" 
+                src="/avatar-light.jpg" 
                 alt="Developer Avatar" 
                 className="w-full h-full object-cover scale-[1.03] group-hover:scale-[1.08] group-hover:rotate-1 transition-all duration-500" 
               />
@@ -535,8 +535,8 @@ export default function BentoGrid() {
         {/* SECTION 2: INTERACTIVE PROJECTS LAB (Bento Showcase) */}
         <div className="mb-24">
           <div className="mb-10 text-center md:text-left">
-            <h2 className="text-3xl font-extrabold text-white tracking-tight mb-2">Interactive Projects Lab</h2>
-            <p className="text-slate-400 text-sm max-w-xl">
+            <h2 className="text-3xl font-extrabold text-pink-600 tracking-tight mb-2">Interactive Projects Lab</h2>
+            <p className="text-slate-800 text-sm max-w-xl">
               Explore functional simulations of my software systems, data pipelines, and research projects directly inside your browser.
             </p>
           </div>
@@ -549,15 +549,15 @@ export default function BentoGrid() {
               onMouseEnter={e => handleMouseEnterCard(e, 0)}
               onMouseMove={e => handleMouseMoveCard(e, 0)}
               onMouseLeave={e => handleMouseLeaveCard(e, 0)}
-              className="bento-card bg-[#090d16]/50 backdrop-blur-xl border border-slate-900 rounded-[32px] overflow-hidden flex flex-col justify-between shadow-2xl relative transition-all duration-200 cursor-default"
+              className="bento-card bg-white/60 backdrop-blur-xl border border-pink-200 rounded-[32px] overflow-hidden flex flex-col justify-between shadow-2xl relative transition-all duration-200 cursor-default"
               style={{
                 backgroundImage: 'radial-gradient(circle 350px at var(--mouse-x, 0px) var(--mouse-y, 0px), rgba(6, 182, 212, 0.06), transparent 80%)'
               }}
             >
-              <div className="flex items-center justify-between px-6 py-4 bg-slate-950/60 border-b border-slate-900">
+              <div className="flex items-center justify-between px-6 py-4 bg-pink-50/60 border-b border-pink-200">
                 <div className="flex items-center gap-2">
-                  <Terminal className="w-5 h-5 text-cyan-400" />
-                  <span className="text-xs font-mono font-bold text-slate-300 tracking-wider">niko-os-terminal ~ guest</span>
+                  <Terminal className="w-5 h-5 text-pink-600" />
+                  <span className="text-xs font-mono font-bold text-slate-800 tracking-wider">niko-os-terminal ~ guest</span>
                 </div>
                 <div className="flex gap-1.5">
                   <div className="w-2.5 h-2.5 rounded-full bg-red-500/60" />
@@ -569,35 +569,35 @@ export default function BentoGrid() {
               <div className="p-6 flex-grow font-mono text-xs overflow-y-auto space-y-3 min-h-[250px]">
                 {consoleHistory.map((item, index) => {
                   if (item.type === 'system') {
-                    return <div key={index} className="text-slate-500">{item.text}</div>;
+                    return <div key={index} className="text-slate-800">{item.text}</div>;
                   }
                   if (item.type === 'user') {
-                    return <div key={index} className="text-white"><span className="text-cyan-400">guest$</span> {item.text}</div>;
+                    return <div key={index} className="text-pink-600"><span className="text-pink-600">guest$</span> {item.text}</div>;
                   }
                   if (item.type === 'reply') {
-                    return <div key={index} className="text-emerald-400 pl-4">{item.text}</div>;
+                    return <div key={index} className="text-rose-600 pl-4">{item.text}</div>;
                   }
                   return <div key={index} className="text-red-400 pl-4">{item.text}</div>;
                 })}
                 {isTyping && (
-                  <div className="text-slate-500 animate-pulse pl-4 flex items-center gap-1.5">
+                  <div className="text-slate-800 animate-pulse pl-4 flex items-center gap-1.5">
                     <span className="w-1.5 h-1.5 rounded-full bg-cyan-400" />
                     Niko OS running query...
                   </div>
                 )}
               </div>
               
-              <form onSubmit={handleConsoleSubmit} className="flex border-t border-slate-900 bg-slate-950/40">
-                <span className="flex items-center pl-6 text-cyan-400 font-mono text-xs">$</span>
+              <form onSubmit={handleConsoleSubmit} className="flex border-t border-pink-200 bg-pink-50/40">
+                <span className="flex items-center pl-6 text-pink-600 font-mono text-xs">$</span>
                 <input 
                   type="text"
                   value={consoleInput}
                   onChange={e => setConsoleInput(e.target.value)}
                   disabled={isTyping}
                   placeholder="Type 'about', 'skills', 'projects', 'diagnostics'..."
-                  className="w-full bg-transparent border-0 outline-none focus:ring-0 text-white font-mono text-xs py-4.5 px-3 disabled:text-slate-600"
+                  className="w-full bg-transparent border-0 outline-none focus:ring-0 text-pink-600 font-mono text-xs py-4.5 px-3 disabled:text-slate-800"
                 />
-                <button type="submit" className="px-6 hover:bg-slate-950 text-cyan-400 transition-colors" disabled={isTyping}>
+                <button type="submit" className="px-6 hover:bg-pink-50 text-pink-600 transition-colors" disabled={isTyping}>
                   <ChevronRight className="w-4 h-4" />
                 </button>
               </form>
@@ -612,7 +612,7 @@ export default function BentoGrid() {
                 onMouseEnter={e => handleMouseEnterCard(e, 1)}
                 onMouseMove={e => handleMouseMoveCard(e, 1)}
                 onMouseLeave={e => handleMouseLeaveCard(e, 1)}
-                className="bento-card bg-[#0b0f19]/40 backdrop-blur-xl border border-slate-900 rounded-[32px] p-6 flex flex-col justify-between shadow-2xl relative overflow-hidden transition-all duration-200 cursor-default min-h-[340px]"
+                className="bento-card bg-white/60 backdrop-blur-xl border border-pink-200 rounded-[32px] p-6 flex flex-col justify-between shadow-2xl relative overflow-hidden transition-all duration-200 cursor-default min-h-[340px]"
                 style={{
                   backgroundImage: 'radial-gradient(circle 350px at var(--mouse-x, 0px) var(--mouse-y, 0px), rgba(139, 92, 246, 0.06), transparent 80%)'
                 }}
@@ -621,57 +621,57 @@ export default function BentoGrid() {
                   <div className="flex flex-col h-full justify-between">
                     <div className="flex items-center justify-between mb-4">
                       <div className="flex items-center gap-3">
-                        <div className="p-2.5 bg-purple-950/40 border border-purple-900/40 text-purple-400 rounded-xl">
+                        <div className="p-2.5 bg-purple-100 border border-purple-200 text-purple-700 rounded-xl">
                           <Phone className="w-5 h-5" />
                         </div>
                         <div>
-                          <h3 className="font-bold text-white text-sm">3CX Odoo CRM Call Pop-up</h3>
-                          <span className="text-[10px] text-slate-500 font-mono uppercase tracking-widest font-bold">VoIP Client Simulator</span>
+                          <h3 className="font-bold text-pink-600 text-sm">3CX Odoo CRM Call Pop-up</h3>
+                          <span className="text-[10px] text-slate-800 font-mono uppercase tracking-widest font-bold">VoIP Client Simulator</span>
                         </div>
                       </div>
-                      <span className="px-2 py-0.5 rounded-full bg-slate-950 border border-slate-800 text-slate-500 font-mono text-[9px]">
+                      <span className="px-2 py-0.5 rounded-full bg-pink-50 border border-pink-200 text-slate-800 font-mono text-[9px]">
                         READY
                       </span>
                     </div>
 
-                    <p className="text-slate-400 text-xs leading-relaxed mb-4">
+                    <p className="text-slate-800 text-xs leading-relaxed mb-4">
                       I built a live 3CX VoIP integration that queries the Odoo API on call-answer, popping up customer histories, orders, and tickets immediately.
                     </p>
 
                     <div className="space-y-2">
-                      <div className="text-[8px] uppercase font-bold tracking-wider text-slate-500 mb-1">Simulate incoming call scenario:</div>
+                      <div className="text-[8px] uppercase font-bold tracking-wider text-slate-800 mb-1">Simulate incoming call scenario:</div>
                       
                       <button 
                         onClick={() => { setCallerType('existing'); setCallState('ringing'); setNewContactCreated(false); }}
-                        className="w-full text-left bg-slate-950/60 hover:bg-slate-900 border border-slate-900 hover:border-slate-800 rounded-xl p-2.5 flex items-center justify-between transition-all group"
+                        className="w-full text-left bg-pink-50/60 hover:bg-pink-100 border border-pink-200 hover:border-pink-200 rounded-xl p-2.5 flex items-center justify-between transition-all group"
                       >
                         <div className="flex items-center gap-2.5">
                           <span className="w-2 h-2 rounded-full bg-emerald-500" />
-                          <span className="text-[11px] font-bold text-white">Alexis Daniel <font className="text-slate-500 font-normal">(Existing Client)</font></span>
+                          <span className="text-[11px] font-bold text-pink-600">Alexis Daniel <font className="text-slate-800 font-normal">(Existing Client)</font></span>
                         </div>
-                        <ChevronRight className="w-3.5 h-3.5 text-slate-600 group-hover:text-purple-400 group-hover:translate-x-0.5 transition-all" />
+                        <ChevronRight className="w-3.5 h-3.5 text-slate-800 group-hover:text-purple-700 group-hover:translate-x-0.5 transition-all" />
                       </button>
 
                       <button 
                         onClick={() => { setCallerType('new'); setCallState('ringing'); setNewContactCreated(false); }}
-                        className="w-full text-left bg-slate-950/60 hover:bg-slate-900 border border-slate-900 hover:border-slate-800 rounded-xl p-2.5 flex items-center justify-between transition-all group"
+                        className="w-full text-left bg-pink-50/60 hover:bg-pink-100 border border-pink-200 hover:border-pink-200 rounded-xl p-2.5 flex items-center justify-between transition-all group"
                       >
                         <div className="flex items-center gap-2.5">
                           <span className="w-2 h-2 rounded-full bg-amber-500" />
-                          <span className="text-[11px] font-bold text-white">+1 (201) 555-0143 <font className="text-slate-500 font-normal">(New Lead)</font></span>
+                          <span className="text-[11px] font-bold text-pink-600">+1 (201) 555-0143 <font className="text-slate-800 font-normal">(New Lead)</font></span>
                         </div>
-                        <ChevronRight className="w-3.5 h-3.5 text-slate-600 group-hover:text-purple-400 group-hover:translate-x-0.5 transition-all" />
+                        <ChevronRight className="w-3.5 h-3.5 text-slate-800 group-hover:text-purple-700 group-hover:translate-x-0.5 transition-all" />
                       </button>
 
                       <button 
                         onClick={() => { setCallerType('internal'); setCallState('ringing'); setNewContactCreated(false); }}
-                        className="w-full text-left bg-slate-950/60 hover:bg-slate-900 border border-slate-900 hover:border-slate-800 rounded-xl p-2.5 flex items-center justify-between transition-all group"
+                        className="w-full text-left bg-pink-50/60 hover:bg-pink-100 border border-pink-200 hover:border-pink-200 rounded-xl p-2.5 flex items-center justify-between transition-all group"
                       >
                         <div className="flex items-center gap-2.5">
                           <span className="w-2 h-2 rounded-full bg-cyan-500" />
-                          <span className="text-[11px] font-bold text-white">Ext. 104 <font className="text-slate-500 font-normal">(IT Support Desk)</font></span>
+                          <span className="text-[11px] font-bold text-pink-600">Ext. 104 <font className="text-slate-800 font-normal">(IT Support Desk)</font></span>
                         </div>
-                        <ChevronRight className="w-3.5 h-3.5 text-slate-600 group-hover:text-purple-400 group-hover:translate-x-0.5 transition-all" />
+                        <ChevronRight className="w-3.5 h-3.5 text-slate-800 group-hover:text-purple-700 group-hover:translate-x-0.5 transition-all" />
                       </button>
                     </div>
                   </div>
@@ -679,18 +679,18 @@ export default function BentoGrid() {
 
                 {callState === 'ringing' && (
                   <div className="flex flex-col h-full justify-between py-2 text-center items-center">
-                    <div className="p-4 bg-purple-950/30 border border-purple-500/20 text-purple-400 rounded-full animate-bounce mb-2">
+                    <div className="p-4 bg-purple-100 border border-purple-300 text-purple-700 rounded-full animate-bounce mb-2">
                       <PhoneCall className="w-8 h-8" />
                     </div>
                     
                     <div>
-                      <span className="text-[9px] uppercase tracking-widest font-mono text-purple-400 font-extrabold animate-pulse block mb-1">Incoming VoIP Call via 3CX</span>
-                      <h4 className="text-white text-base font-extrabold mb-1">
+                      <span className="text-[9px] uppercase tracking-widest font-mono text-purple-700 font-extrabold animate-pulse block mb-1">Incoming VoIP Call via 3CX</span>
+                      <h4 className="text-pink-600 text-base font-extrabold mb-1">
                         {callerType === 'existing' && 'Alexis Daniel'}
                         {callerType === 'new' && '+1 (201) 555-0143'}
                         {callerType === 'internal' && 'IT Support Desk'}
                       </h4>
-                      <p className="text-[11px] text-slate-500 font-mono">
+                      <p className="text-[11px] text-slate-800 font-mono">
                         {callerType === 'existing' && '+1 (406) 591-2190'}
                         {callerType === 'new' && 'Odoo database lookup initiated...'}
                         {callerType === 'internal' && 'Extension 104'}
@@ -700,7 +700,7 @@ export default function BentoGrid() {
                     <div className="flex gap-4 w-full mt-4">
                       <button 
                         onClick={() => setCallState('connected')}
-                        className="flex-1 bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-bold py-2.5 rounded-xl text-xs transition-colors"
+                        className="flex-1 bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-2.5 rounded-xl text-xs transition-colors"
                       >
                         Answer Call
                       </button>
@@ -717,14 +717,14 @@ export default function BentoGrid() {
                 {callState === 'connected' && (
                   <div className="flex flex-col h-full justify-between">
                     {/* CRM Header Bar */}
-                    <div className="flex items-center justify-between border-b border-slate-900 pb-2 mb-2">
+                    <div className="flex items-center justify-between border-b border-pink-200 pb-2 mb-2">
                       <div className="flex items-center gap-2">
                         <span className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse" />
-                        <span className="text-[10px] text-slate-400 font-mono font-bold uppercase tracking-wider">3CX CRM Live Inbound popup</span>
+                        <span className="text-[10px] text-slate-800 font-mono font-bold uppercase tracking-wider">3CX CRM Live Inbound popup</span>
                       </div>
                       <button 
                         onClick={() => setCallState('idle')}
-                        className="p-1 hover:bg-red-500/10 text-slate-500 hover:text-red-400 rounded-lg transition-colors"
+                        className="p-1 hover:bg-red-500/10 text-slate-800 hover:text-red-400 rounded-lg transition-colors"
                         title="Hang up call"
                       >
                         <PhoneOff className="w-3.5 h-3.5" />
@@ -736,42 +736,42 @@ export default function BentoGrid() {
                       <div className="flex-grow flex flex-col justify-between">
                         {callerType === 'existing' && (
                           <div className="space-y-2 flex-grow overflow-y-auto max-h-[220px] pr-1">
-                            <div className="bg-slate-950/40 rounded-xl p-2.5 border border-slate-900 text-center">
-                              <span className="text-[9px] text-slate-500 uppercase tracking-widest block font-bold">Odoo Customer Found</span>
-                              <h4 className="text-purple-400 text-sm font-extrabold">Alexis Daniel</h4>
-                              <span className="text-[9px] text-slate-400">Operations Management Firm | +1 (406) 591-2190</span>
+                            <div className="bg-pink-50/40 rounded-xl p-2.5 border border-pink-200 text-center">
+                              <span className="text-[9px] text-slate-800 uppercase tracking-widest block font-bold">Odoo Customer Found</span>
+                              <h4 className="text-purple-700 text-sm font-extrabold">Alexis Daniel</h4>
+                              <span className="text-[9px] text-slate-800">Operations Management Firm | +1 (406) 591-2190</span>
                             </div>
 
                             {/* Recent Orders segment */}
-                            <div className="bg-slate-950/60 rounded-xl p-2 border border-slate-900 font-mono text-[9px]">
-                              <div className="text-[8px] uppercase tracking-wider text-slate-500 font-extrabold border-b border-slate-900 pb-1 mb-1">Recent Orders</div>
+                            <div className="bg-pink-50/60 rounded-xl p-2 border border-pink-200 font-mono text-[9px]">
+                              <div className="text-[8px] uppercase tracking-wider text-slate-800 font-extrabold border-b border-pink-200 pb-1 mb-1">Recent Orders</div>
                               <div className="space-y-1">
                                 <div className="flex justify-between items-center">
-                                  <span className="text-slate-400">Order #4812</span>
-                                  <span className="text-[8px] px-1.5 py-0.5 rounded bg-emerald-950/40 border border-emerald-900 text-emerald-400 font-bold">PAID</span>
+                                  <span className="text-slate-800">Order #4812</span>
+                                  <span className="text-[8px] px-1.5 py-0.5 rounded bg-pink-100 border border-pink-200 text-rose-600 font-bold">PAID</span>
                                 </div>
                                 <div className="flex justify-between items-center">
-                                  <span className="text-slate-400">Order #4790</span>
-                                  <span className="text-[8px] px-1.5 py-0.5 rounded bg-emerald-950/40 border border-emerald-900 text-emerald-400 font-bold">PAID</span>
+                                  <span className="text-slate-800">Order #4790</span>
+                                  <span className="text-[8px] px-1.5 py-0.5 rounded bg-pink-100 border border-pink-200 text-rose-600 font-bold">PAID</span>
                                 </div>
                                 <div className="flex justify-between items-center">
-                                  <span className="text-slate-400">Order #4755</span>
-                                  <span className="text-[8px] px-1.5 py-0.5 rounded bg-blue-950/40 border border-blue-900 text-blue-400 font-bold">SHIPPED</span>
+                                  <span className="text-slate-800">Order #4755</span>
+                                  <span className="text-[8px] px-1.5 py-0.5 rounded bg-pink-100 border border-pink-200 text-rose-500 font-bold">SHIPPED</span>
                                 </div>
                               </div>
                             </div>
 
                             {/* Recent Tickets segment */}
-                            <div className="bg-slate-950/60 rounded-xl p-2 border border-slate-900 font-mono text-[9px]">
-                              <div className="text-[8px] uppercase tracking-wider text-slate-500 font-extrabold border-b border-slate-900 pb-1 mb-1">Related Tickets</div>
+                            <div className="bg-pink-50/60 rounded-xl p-2 border border-pink-200 font-mono text-[9px]">
+                              <div className="text-[8px] uppercase tracking-wider text-slate-800 font-extrabold border-b border-pink-200 pb-1 mb-1">Related Tickets</div>
                               <div className="space-y-1">
                                 <div className="flex justify-between items-center">
-                                  <span className="text-slate-400 truncate max-w-[120px]">VoIP Ingest lag issue</span>
-                                  <span className="text-[8px] px-1.5 py-0.5 rounded bg-blue-950/40 border border-blue-900 text-blue-400 font-bold">OPEN</span>
+                                  <span className="text-slate-800 truncate max-w-[120px]">VoIP Ingest lag issue</span>
+                                  <span className="text-[8px] px-1.5 py-0.5 rounded bg-pink-100 border border-pink-200 text-rose-500 font-bold">OPEN</span>
                                 </div>
                                 <div className="flex justify-between items-center">
-                                  <span className="text-slate-400 truncate max-w-[120px]">Phone line 3CX disconnect</span>
-                                  <span className="text-[8px] px-1.5 py-0.5 rounded bg-slate-900 border border-slate-800 text-slate-500">CLOSED</span>
+                                  <span className="text-slate-800 truncate max-w-[120px]">Phone line 3CX disconnect</span>
+                                  <span className="text-[8px] px-1.5 py-0.5 rounded bg-pink-100 border border-pink-200 text-slate-800">CLOSED</span>
                                 </div>
                               </div>
                             </div>
@@ -780,23 +780,23 @@ export default function BentoGrid() {
                             <div className="flex gap-2 pt-1">
                               <button 
                                 onClick={() => setWrapUpStep('wrapup')}
-                                className="flex-grow bg-[#714B67] hover:bg-[#5b3d53] text-white font-bold py-2.5 rounded-xl text-[10px] text-center transition-colors font-sans"
+                                className="flex-grow bg-[#714B67] hover:bg-[#5b3d53] text-pink-600 font-bold py-2.5 rounded-xl text-[10px] text-center transition-colors font-sans"
                               >
                                 Proceed to Call Wrap-Up
                               </button>
                             </div>
                             <div className="text-center mt-1">
-                              <span className="text-[8px] text-slate-600 hover:text-slate-400 hover:underline cursor-pointer">Open Service Portal</span>
+                              <span className="text-[8px] text-slate-800 hover:text-slate-800 hover:underline cursor-pointer">Open Service Portal</span>
                             </div>
                           </div>
                         )}
 
                         {callerType === 'new' && (
                           <div className="space-y-3 flex-grow flex flex-col justify-center">
-                            <div className="bg-slate-950/40 rounded-xl p-3 border border-slate-900 text-center">
+                            <div className="bg-pink-50/40 rounded-xl p-3 border border-pink-200 text-center">
                               <span className="text-[9px] text-amber-400 border border-amber-500/20 px-2 py-0.5 rounded-full uppercase tracking-wider font-mono font-bold inline-block mb-2">Unknown Caller</span>
-                              <h4 className="text-white text-base font-extrabold mb-1">+1 (201) 555-0143</h4>
-                              <p className="text-[11px] text-slate-400 max-w-xs mx-auto leading-relaxed">
+                              <h4 className="text-pink-600 text-base font-extrabold mb-1">+1 (201) 555-0143</h4>
+                              <p className="text-[11px] text-slate-800 max-w-xs mx-auto leading-relaxed">
                                 No matching customer profile exists for this number in Odoo CRM records.
                               </p>
                             </div>
@@ -804,7 +804,7 @@ export default function BentoGrid() {
                             <div className="flex gap-2">
                               <button 
                                 onClick={() => setWrapUpStep('wrapup')}
-                                className="flex-1 bg-[#714B67] hover:bg-[#5b3d53] text-white font-bold py-2.5 rounded-xl text-[10px] flex items-center justify-center gap-1.5 transition-colors"
+                                className="flex-1 bg-[#714B67] hover:bg-[#5b3d53] text-pink-600 font-bold py-2.5 rounded-xl text-[10px] flex items-center justify-center gap-1.5 transition-colors"
                               >
                                 <UserPlus className="w-3.5 h-3.5" />
                                 Wrap Up & Create Profile
@@ -815,15 +815,15 @@ export default function BentoGrid() {
 
                         {callerType === 'internal' && (
                           <div className="space-y-4 flex-grow flex flex-col justify-center">
-                            <div className="bg-slate-950/40 rounded-xl p-3 border border-slate-900 text-center">
-                              <span className="text-[9px] text-cyan-400 border border-cyan-500/20 px-2 py-0.5 rounded-full uppercase tracking-wider font-mono font-bold inline-block mb-2">Internal extension</span>
-                              <h4 className="text-white text-base font-extrabold mb-1">IT Helpdesk Desk</h4>
-                              <span className="text-[10px] text-slate-500 font-mono">Extension 104</span>
+                            <div className="bg-pink-50/40 rounded-xl p-3 border border-pink-200 text-center">
+                              <span className="text-[9px] text-pink-600 border border-cyan-500/20 px-2 py-0.5 rounded-full uppercase tracking-wider font-mono font-bold inline-block mb-2">Internal extension</span>
+                              <h4 className="text-pink-600 text-base font-extrabold mb-1">IT Helpdesk Desk</h4>
+                              <span className="text-[10px] text-slate-800 font-mono">Extension 104</span>
                             </div>
 
                             <button 
                               onClick={() => setWrapUpStep('wrapup')}
-                              className="w-full bg-[#714B67] hover:bg-[#5b3d53] text-white font-bold py-2.5 rounded-xl text-[10px] transition-colors"
+                              className="w-full bg-[#714B67] hover:bg-[#5b3d53] text-pink-600 font-bold py-2.5 rounded-xl text-[10px] transition-colors"
                             >
                               Proceed to Wrap-Up
                             </button>
@@ -836,27 +836,27 @@ export default function BentoGrid() {
                     {wrapUpStep === 'wrapup' && (
                       <div className="flex-grow flex flex-col justify-between overflow-y-auto max-h-[260px] pr-1 space-y-2.5">
                         {callerType === 'existing' && (
-                          <div className="bg-slate-950/30 rounded-xl p-2 border border-slate-900/60 flex items-center justify-between">
-                            <span className="text-[10px] font-bold text-white">Target: Alexis Daniel</span>
-                            <span className="text-[8.5px] font-mono text-purple-400 font-bold bg-purple-950/40 border border-purple-900 px-1.5 py-0.5 rounded">Odoo Connected</span>
+                          <div className="bg-pink-50/30 rounded-xl p-2 border border-pink-200/60 flex items-center justify-between">
+                            <span className="text-[10px] font-bold text-pink-600">Target: Alexis Daniel</span>
+                            <span className="text-[8.5px] font-mono text-purple-700 font-bold bg-purple-100 border border-purple-300 px-1.5 py-0.5 rounded">Odoo Connected</span>
                           </div>
                         )}
 
                         {callerType === 'new' && (
-                          <div className="bg-slate-950/30 rounded-xl p-2 border border-slate-900/60 flex flex-col gap-2">
-                            <div className="flex items-center justify-between text-[10px] text-slate-400">
+                          <div className="bg-pink-50/30 rounded-xl p-2 border border-pink-200/60 flex flex-col gap-2">
+                            <div className="flex items-center justify-between text-[10px] text-slate-800">
                               <span>Target: New Customer (+1 201-555-0143)</span>
                               <span className="text-[8px] font-bold text-amber-500 bg-amber-950/30 border border-amber-900 px-1.5 py-0.5 rounded">Lead</span>
                             </div>
-                            <div className="flex items-center gap-2 bg-slate-950/70 p-2 rounded-lg border border-slate-900">
+                            <div className="flex items-center gap-2 bg-pink-50/70 p-2 rounded-lg border border-pink-200">
                               <input 
                                 type="checkbox"
                                 id="createTempProfile"
                                 checked={newCustomerTempProfile}
                                 onChange={e => setNewCustomerTempProfile(e.target.checked)}
-                                className="rounded bg-slate-900 border-slate-800 text-purple-500 focus:ring-purple-500"
+                                className="rounded bg-pink-100 border-pink-200 text-purple-700 focus:ring-purple-400"
                               />
-                              <label htmlFor="createTempProfile" className="text-[9.5px] text-slate-300 font-medium cursor-pointer">
+                              <label htmlFor="createTempProfile" className="text-[9.5px] text-slate-800 font-medium cursor-pointer">
                                 Auto-create Odoo Temp Customer Profile
                               </label>
                             </div>
@@ -865,11 +865,11 @@ export default function BentoGrid() {
 
                         {callerType === 'existing' && (
                           <div>
-                            <label className="text-[8px] uppercase tracking-wider text-slate-500 font-bold block mb-1">Related Context</label>
+                            <label className="text-[8px] uppercase tracking-wider text-slate-800 font-bold block mb-1">Related Context</label>
                             <select 
                               value={selectedContext}
                               onChange={e => setSelectedContext(e.target.value)}
-                              className="w-full bg-slate-950 border border-slate-900 text-[10.5px] text-slate-300 font-mono rounded-lg p-2 outline-none focus:ring-1 focus:ring-purple-500"
+                              className="w-full bg-pink-50 border border-pink-200 text-[10.5px] text-slate-800 font-mono rounded-lg p-2 outline-none focus:ring-1 focus:ring-purple-400"
                             >
                               <option value="Order #4812">Order #4812 (Paid)</option>
                               <option value="Order #4755">Order #4755 (Shipped)</option>
@@ -882,11 +882,11 @@ export default function BentoGrid() {
                         {/* Call Notes Area & Auto-Refinement */}
                         <div>
                           <div className="flex justify-between items-center mb-1">
-                            <label className="text-[8px] uppercase tracking-wider text-slate-500 font-bold">Call Summary Notes</label>
+                            <label className="text-[8px] uppercase tracking-wider text-slate-800 font-bold">Call Summary Notes</label>
                             <button 
                               onClick={handleAiRewrite}
                               disabled={isAiRewriting || !callNotes}
-                              className="text-[9px] text-purple-400 font-bold hover:text-purple-300 flex items-center gap-1 disabled:text-slate-600 disabled:no-underline"
+                              className="text-[9px] text-purple-700 font-bold hover:text-purple-800 flex items-center gap-1 disabled:text-slate-800 disabled:no-underline"
                             >
                               <span>🪄</span>
                               {isAiRewriting ? 'Refining...' : 'Refine Notes (Odoo AI)'}
@@ -896,18 +896,18 @@ export default function BentoGrid() {
                             value={callNotes}
                             onChange={e => setCallNotes(e.target.value)}
                             placeholder={callerType === 'existing' ? "Type 'customer complained about delay...' then click Refine Notes" : "Enter summary of call details..."}
-                            className="w-full h-14 bg-slate-950 border border-slate-900 text-[11px] text-slate-200 rounded-lg p-2 outline-none focus:ring-1 focus:ring-purple-500 resize-none"
+                            className="w-full h-14 bg-pink-50 border border-pink-200 text-[11px] text-slate-700 rounded-lg p-2 outline-none focus:ring-1 focus:ring-purple-400 resize-none"
                           />
                         </div>
 
                         {/* Disposition and Scheduler options */}
                         <div className="grid grid-cols-2 gap-2">
                           <div>
-                            <label className="text-[8px] uppercase tracking-wider text-slate-500 font-bold block mb-1">Call Disposition</label>
+                            <label className="text-[8px] uppercase tracking-wider text-slate-800 font-bold block mb-1">Call Disposition</label>
                             <select 
                               value={selectedDisposition}
                               onChange={e => setSelectedDisposition(e.target.value)}
-                              className="w-full bg-slate-950 border border-slate-900 text-[10.5px] text-slate-300 font-mono rounded-lg p-1.5 outline-none focus:ring-1 focus:ring-purple-500"
+                              className="w-full bg-pink-50 border border-pink-200 text-[10.5px] text-slate-800 font-mono rounded-lg p-1.5 outline-none focus:ring-1 focus:ring-purple-400"
                             >
                               <option value="Resolved">Resolved</option>
                               <option value="Escalated">Escalated</option>
@@ -916,44 +916,44 @@ export default function BentoGrid() {
                             </select>
                           </div>
                           <div>
-                            <label className="text-[8px] uppercase tracking-wider text-slate-500 font-bold block mb-1">Follow-Up Action</label>
-                            <div className="flex items-center gap-1.5 h-8 bg-slate-950/60 border border-slate-900 rounded-lg px-2">
+                            <label className="text-[8px] uppercase tracking-wider text-slate-800 font-bold block mb-1">Follow-Up Action</label>
+                            <div className="flex items-center gap-1.5 h-8 bg-pink-50/60 border border-pink-200 rounded-lg px-2">
                               <input 
                                 type="checkbox"
                                 id="scheduleFollow"
                                 checked={scheduleFollowUp}
                                 onChange={e => setScheduleFollowUp(e.target.checked)}
-                                className="rounded bg-slate-900 border-slate-800 text-purple-500 focus:ring-purple-500"
+                                className="rounded bg-pink-100 border-pink-200 text-purple-700 focus:ring-purple-400"
                               />
-                              <label htmlFor="scheduleFollow" className="text-[9.5px] text-slate-400 cursor-pointer">Schedule call</label>
+                              <label htmlFor="scheduleFollow" className="text-[9.5px] text-slate-800 cursor-pointer">Schedule call</label>
                             </div>
                           </div>
                         </div>
 
                         {scheduleFollowUp && (
                           <div className="animate-fadeIn">
-                            <label className="text-[8px] uppercase tracking-wider text-slate-500 font-bold block mb-1">Follow-up Date/Time</label>
+                            <label className="text-[8px] uppercase tracking-wider text-slate-800 font-bold block mb-1">Follow-up Date/Time</label>
                             <input 
                               type="text" 
                               value={followUpDate} 
                               onChange={e => setFollowUpDate(e.target.value)}
                               placeholder="e.g. Monday, 2:00 PM"
-                              className="w-full bg-slate-950 border border-slate-900 text-[10.5px] text-slate-300 rounded-lg p-2 outline-none focus:ring-1 focus:ring-purple-500 font-mono"
+                              className="w-full bg-pink-50 border border-pink-200 text-[10.5px] text-slate-800 rounded-lg p-2 outline-none focus:ring-1 focus:ring-purple-400 font-mono"
                             />
                           </div>
                         )}
 
                         {/* Customer Email Checkbox */}
                         {callerType === 'existing' && (
-                          <div className="flex items-center gap-2 bg-slate-950/60 p-2 rounded-lg border border-slate-900">
+                          <div className="flex items-center gap-2 bg-pink-50/60 p-2 rounded-lg border border-pink-200">
                             <input 
                               type="checkbox"
                               id="sendSummaryEmail"
                               checked={sendEmailChecked}
                               onChange={e => setSendEmailChecked(e.target.checked)}
-                              className="rounded bg-slate-900 border-slate-800 text-purple-500 focus:ring-purple-500"
+                              className="rounded bg-pink-100 border-pink-200 text-purple-700 focus:ring-purple-400"
                             />
-                            <label htmlFor="sendSummaryEmail" className="text-[9.5px] text-slate-300 font-medium cursor-pointer">
+                            <label htmlFor="sendSummaryEmail" className="text-[9.5px] text-slate-800 font-medium cursor-pointer">
                               Send call summary email using company template
                             </label>
                           </div>
@@ -963,13 +963,13 @@ export default function BentoGrid() {
                         <div className="flex gap-2 pt-1.5">
                           <button 
                             onClick={() => setWrapUpStep('logged')}
-                            className="flex-1 bg-[#714B67] hover:bg-[#5b3d53] text-white font-bold py-2 rounded-lg text-[10.5px] transition-colors"
+                            className="flex-1 bg-[#714B67] hover:bg-[#5b3d53] text-pink-600 font-bold py-2 rounded-lg text-[10.5px] transition-colors"
                           >
                             Submit & Log to Odoo
                           </button>
                           <button 
                             onClick={() => setWrapUpStep('details')}
-                            className="px-3 bg-slate-950 hover:bg-slate-900 border border-slate-800 text-slate-400 rounded-lg text-[10px] transition-colors"
+                            className="px-3 bg-pink-50 hover:bg-pink-100 border border-pink-200 text-slate-800 rounded-lg text-[10px] transition-colors"
                           >
                             Back
                           </button>
@@ -981,50 +981,50 @@ export default function BentoGrid() {
                     {wrapUpStep === 'logged' && (
                       <div className="flex-grow flex flex-col justify-between py-2">
                         <div className="text-center mb-3">
-                          <div className="w-8 h-8 rounded-full bg-emerald-950 border border-emerald-500 text-emerald-400 flex items-center justify-center mx-auto mb-1 animate-scaleUp">
+                          <div className="w-8 h-8 rounded-full bg-emerald-950 border border-emerald-500 text-rose-600 flex items-center justify-center mx-auto mb-1 animate-scaleUp">
                             <CheckCircle className="w-5 h-5" />
                           </div>
-                          <h4 className="text-white text-xs font-bold font-sans">Call Wrapped Up Successfully</h4>
-                          <span className="text-[9px] text-slate-500 font-mono">Operations Pipeline Logs</span>
+                          <h4 className="text-pink-600 text-xs font-bold font-sans">Call Wrapped Up Successfully</h4>
+                          <span className="text-[9px] text-slate-800 font-mono">Operations Pipeline Logs</span>
                         </div>
 
                         {/* Simulation Success logs terminal */}
-                        <div className="bg-slate-950/80 rounded-xl p-3 border border-slate-900 font-mono text-[9.5px] text-slate-300 space-y-1.5 max-h-[140px] overflow-y-auto">
-                          <div className="flex gap-2 text-emerald-400">
+                        <div className="bg-pink-50/80 rounded-xl p-3 border border-pink-200 font-mono text-[9.5px] text-slate-800 space-y-1.5 max-h-[140px] overflow-y-auto">
+                          <div className="flex gap-2 text-rose-600">
                             <span>✔</span>
                             <span>Call log synced to 3CX History.</span>
                           </div>
                           
                           {callerType === 'new' && newCustomerTempProfile && (
-                            <div className="flex gap-2 text-emerald-400">
+                            <div className="flex gap-2 text-rose-600">
                               <span>✔</span>
                               <span>Created Odoo profile for +1 (201) 555-0143.</span>
                             </div>
                           )}
 
-                          <div className="flex gap-2 text-emerald-400">
+                          <div className="flex gap-2 text-rose-600">
                             <span>✔</span>
                             <span>Logged to Odoo Chatter: Ext 104 to {callerType === 'existing' ? 'Alexis Daniel' : 'New Contact'}.</span>
                           </div>
 
                           {callerType === 'existing' && sendEmailChecked && (
-                            <div className="flex flex-col pl-4 text-slate-400 border-l border-slate-800 py-0.5 my-1">
-                              <span className="font-bold text-white text-[8px] uppercase tracking-wider text-purple-400 mb-0.5">Email Dispatched</span>
+                            <div className="flex flex-col pl-4 text-slate-800 border-l border-pink-200 py-0.5 my-1">
+                              <span className="font-bold text-pink-600 text-[8px] uppercase tracking-wider text-purple-700 mb-0.5">Email Dispatched</span>
                               <span><b>To:</b> alexis@company.com</span>
                               <span><b>Subject:</b> Call summary regarding {selectedContext}</span>
                               <span className="truncate"><b>Body:</b> "{callNotes || 'No notes added'}"</span>
-                              <span className="text-[8px] text-slate-500 italic mt-0.5">Signed: Agent Ext 104 | Operations Firm</span>
+                              <span className="text-[8px] text-slate-800 italic mt-0.5">Signed: Agent Ext 104 | Operations Firm</span>
                             </div>
                           )}
 
                           {scheduleFollowUp && (
-                            <div className="flex gap-2 text-purple-400">
+                            <div className="flex gap-2 text-purple-700">
                               <span>✔</span>
                               <span>Callback scheduled for {followUpDate || 'Monday morning'}.</span>
                             </div>
                           )}
 
-                          <div className="flex gap-2 text-slate-500 text-[8px]">
+                          <div className="flex gap-2 text-slate-800 text-[8px]">
                             <span>[INFO]</span>
                             <span>Session finalized. SQLite/Odoo buffers flushed.</span>
                           </div>
@@ -1032,7 +1032,7 @@ export default function BentoGrid() {
 
                         <button 
                           onClick={() => setCallState('idle')}
-                          className="w-full bg-slate-950 hover:bg-slate-900 border border-slate-800 text-slate-300 font-bold py-2 rounded-lg text-[10px] transition-colors mt-3"
+                          className="w-full bg-pink-50 hover:bg-pink-100 border border-pink-200 text-slate-800 font-bold py-2 rounded-lg text-[10px] transition-colors mt-3"
                         >
                           Simulate New Call
                         </button>
@@ -1048,26 +1048,26 @@ export default function BentoGrid() {
                 onMouseEnter={e => handleMouseEnterCard(e, 2)}
                 onMouseMove={e => handleMouseMoveCard(e, 2)}
                 onMouseLeave={e => handleMouseLeaveCard(e, 2)}
-                className="bento-card bg-[#0b0f19]/40 backdrop-blur-xl border border-slate-900 rounded-[32px] p-6 flex flex-col justify-between shadow-2xl relative overflow-hidden transition-all duration-200 cursor-default"
+                className="bento-card bg-white/60 backdrop-blur-xl border border-pink-200 rounded-[32px] p-6 flex flex-col justify-between shadow-2xl relative overflow-hidden transition-all duration-200 cursor-default"
                 style={{
                   backgroundImage: 'radial-gradient(circle 350px at var(--mouse-x, 0px) var(--mouse-y, 0px), rgba(6, 182, 212, 0.06), transparent 80%)'
                 }}
               >
                 <div className="flex items-center justify-between mb-3">
                   <div className="flex items-center gap-3">
-                    <div className="p-2.5 bg-cyan-950/40 border border-cyan-900/40 text-cyan-400 rounded-xl">
+                    <div className="p-2.5 bg-pink-100 border border-pink-200 text-pink-600 rounded-xl">
                       <Cpu className="w-5 h-5" />
                     </div>
                     <div>
-                      <h3 className="font-bold text-white text-sm">GPS Attenuation Visualizer</h3>
-                      <span className="text-[10px] text-slate-500 font-mono uppercase tracking-widest">Co-Authored Precipitation Research</span>
+                      <h3 className="font-bold text-pink-600 text-sm">GPS Attenuation Visualizer</h3>
+                      <span className="text-[10px] text-slate-800 font-mono uppercase tracking-widest">Co-Authored Precipitation Research</span>
                     </div>
                   </div>
                   
                   <select 
                     value={precipitationMode}
                     onChange={e => setPrecipitationMode(e.target.value)}
-                    className="bg-slate-950 border border-slate-800 text-[10px] text-slate-300 font-mono rounded-lg px-2 py-1 outline-none focus:ring-1 focus:ring-cyan-500"
+                    className="bg-pink-50 border border-pink-200 text-[10px] text-slate-800 font-mono rounded-lg px-2 py-1 outline-none focus:ring-1 focus:ring-cyan-500"
                   >
                     <option value="Clear Sky">☀️ Clear Sky</option>
                     <option value="Light Rain">🌧️ Light Rain</option>
@@ -1075,15 +1075,15 @@ export default function BentoGrid() {
                   </select>
                 </div>
 
-                <div className="relative w-full h-[90px] bg-slate-950/80 border border-slate-900 rounded-xl overflow-hidden mb-3">
+                <div className="relative w-full h-[90px] bg-pink-50/80 border border-pink-200 rounded-xl overflow-hidden mb-3">
                   <canvas ref={canvasRef} width="400" height="90" className="w-full h-full block" />
                 </div>
 
                 <div className="flex gap-6 mt-1">
                   <div className="flex-1">
-                    <div className="flex justify-between text-[10px] font-bold text-slate-400 mb-1">
+                    <div className="flex justify-between text-[10px] font-bold text-slate-800 mb-1">
                       <span>Dampening Density</span>
-                      <span className="font-mono text-cyan-400">{rainDensity}%</span>
+                      <span className="font-mono text-pink-600">{rainDensity}%</span>
                     </div>
                     <input 
                       type="range" 
@@ -1092,13 +1092,13 @@ export default function BentoGrid() {
                       value={rainDensity} 
                       disabled={precipitationMode !== 'Custom' && (precipitationMode && true)}
                       onChange={e => setRainDensity(parseInt(e.target.value))}
-                      className="w-full accent-cyan-500 h-1 bg-slate-900 rounded-lg cursor-pointer"
+                      className="w-full accent-cyan-500 h-1 bg-pink-100 rounded-lg cursor-pointer"
                     />
                   </div>
                   <div className="flex-1">
-                    <div className="flex justify-between text-[10px] font-bold text-slate-400 mb-1">
+                    <div className="flex justify-between text-[10px] font-bold text-slate-800 mb-1">
                       <span>Frequency</span>
-                      <span className="font-mono text-emerald-400">{gpsFrequency} GHz</span>
+                      <span className="font-mono text-rose-600">{gpsFrequency} GHz</span>
                     </div>
                     <input 
                       type="range" 
@@ -1107,7 +1107,7 @@ export default function BentoGrid() {
                       step="0.1"
                       value={gpsFrequency} 
                       onChange={e => setGpsFrequency(parseFloat(e.target.value))}
-                      className="w-full accent-emerald-500 h-1 bg-slate-900 rounded-lg cursor-pointer"
+                      className="w-full accent-emerald-500 h-1 bg-pink-100 rounded-lg cursor-pointer"
                     />
                   </div>
                 </div>
@@ -1121,8 +1121,8 @@ export default function BentoGrid() {
         {/* SECTION 3: DETAILED PROJECTS CATALOG */}
         <div className="mb-24">
           <div className="mb-10 text-center md:text-left">
-            <h2 className="text-3xl font-extrabold text-white tracking-tight mb-2">Featured Projects</h2>
-            <p className="text-slate-400 text-sm max-w-xl">
+            <h2 className="text-3xl font-extrabold text-pink-600 tracking-tight mb-2">Featured Projects</h2>
+            <p className="text-slate-800 text-sm max-w-xl">
               Detailed breakdown of my production software systems, data pipelines, and research catalog.
             </p>
           </div>
@@ -1131,21 +1131,21 @@ export default function BentoGrid() {
             {projects.map((project, idx) => (
               <div 
                 key={idx}
-                className="bg-[#0b0f19]/30 border border-slate-900 hover:border-slate-800/80 rounded-[28px] p-8 flex flex-col justify-between shadow-xl transition-all duration-300 group hover:-translate-y-1"
+                className="bg-white/60 border border-pink-200 hover:border-pink-200/80 rounded-[28px] p-8 flex flex-col justify-between shadow-xl transition-all duration-300 group hover:-translate-y-1"
               >
                 <div>
                   <div className="flex justify-between items-start mb-4">
-                    <span className="text-[10px] font-mono font-bold tracking-wider text-emerald-400 uppercase bg-emerald-950/40 border border-emerald-900/30 px-3 py-1 rounded-full">
+                    <span className="text-[10px] font-mono font-bold tracking-wider text-rose-600 uppercase bg-pink-100 border border-pink-200/30 px-3 py-1 rounded-full">
                       {project.type}
                     </span>
                   </div>
                   
-                  <h3 className="text-2xl font-bold text-white mb-1 group-hover:text-emerald-400 transition-colors">
+                  <h3 className="text-2xl font-bold text-pink-600 mb-1 group-hover:text-rose-600 transition-colors">
                     {project.title}
                   </h3>
-                  <p className="text-xs text-slate-400 font-mono mb-4">{project.tagline}</p>
+                  <p className="text-xs text-slate-800 font-mono mb-4">{project.tagline}</p>
                   
-                  <p className="text-slate-300 text-sm leading-relaxed mb-6">
+                  <p className="text-slate-800 text-sm leading-relaxed mb-6">
                     {project.desc}
                   </p>
                 </div>
@@ -1153,20 +1153,20 @@ export default function BentoGrid() {
                 <div>
                   <div className="flex flex-wrap gap-2 mb-6">
                     {project.tech.map((t, i) => (
-                      <span key={i} className="text-[10px] text-slate-400 bg-slate-950 px-2.5 py-1 rounded-lg border border-slate-900">
+                      <span key={i} className="text-[10px] text-slate-800 bg-pink-50 px-2.5 py-1 rounded-lg border border-pink-200">
                         {t}
                       </span>
                     ))}
                   </div>
 
-                  <div className="flex gap-4 pt-4 border-t border-slate-900/60">
+                  <div className="flex gap-4 pt-4 border-t border-pink-200/60">
                     {project.github !== '#' && (
-                      <a href={project.github} target="_blank" rel="noreferrer" className="flex items-center gap-2 text-xs text-slate-400 hover:text-white transition-colors">
+                      <a href={project.github} target="_blank" rel="noreferrer" className="flex items-center gap-2 text-xs text-slate-800 hover:text-pink-600 transition-colors">
                         <Code className="w-3.5 h-3.5" /> Source Code
                       </a>
                     )}
                     {project.demo && (
-                      <a href={project.demo} target="_blank" rel="noreferrer" className="flex items-center gap-1.5 text-xs text-emerald-400 hover:text-emerald-300 transition-colors">
+                      <a href={project.demo} target="_blank" rel="noreferrer" className="flex items-center gap-1.5 text-xs text-rose-600 hover:text-emerald-300 transition-colors">
                         <ExternalLink className="w-3.5 h-3.5" /> Live Demo
                       </a>
                     )}
@@ -1180,40 +1180,40 @@ export default function BentoGrid() {
         {/* SECTION 4: PROFESSIONAL WORK EXPERIENCE (NEW) */}
         <div className="mb-24">
           <div className="mb-10 text-center md:text-left">
-            <h2 className="text-3xl font-extrabold text-white tracking-tight mb-2">Work History</h2>
-            <p className="text-slate-400 text-sm max-w-xl">
+            <h2 className="text-3xl font-extrabold text-pink-600 tracking-tight mb-2">Work History</h2>
+            <p className="text-slate-800 text-sm max-w-xl">
               Professional software engineering, quantitative research, and systems administration timeline.
             </p>
           </div>
 
-          <div className="relative border-l border-slate-900 ml-4 md:ml-6 space-y-12">
+          <div className="relative border-l border-pink-200 ml-4 md:ml-6 space-y-12">
             {experiences.map((exp, idx) => (
               <div key={idx} className="relative pl-8 md:pl-10 group">
                 {/* Timeline node */}
-                <div className="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-slate-950 border-2 border-slate-800 group-hover:border-emerald-400 group-hover:bg-emerald-950 transition-all duration-300 flex items-center justify-center">
-                  <div className="w-1.5 h-1.5 rounded-full bg-slate-800 group-hover:bg-emerald-400 transition-colors" />
+                <div className="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-pink-50 border-2 border-pink-200 group-hover:border-pink-500 group-hover:bg-pink-100 transition-all duration-300 flex items-center justify-center">
+                  <div className="w-1.5 h-1.5 rounded-full bg-white group-hover:bg-pink-500 transition-colors" />
                 </div>
 
-                <div className="bg-[#0b0f19]/20 border border-slate-900 hover:border-slate-850 rounded-2xl p-6 transition-all duration-300 group-hover:bg-[#0b0f19]/35">
+                <div className="bg-white/60 border border-pink-200 hover:border-pink-300 rounded-2xl p-6 transition-all duration-300 group-hover:bg-white/60">
                   <div className="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-4">
                     <div>
-                      <h3 className="text-xl font-bold text-white group-hover:text-emerald-400 transition-colors">
+                      <h3 className="text-xl font-bold text-pink-600 group-hover:text-rose-600 transition-colors">
                         {exp.role}
                       </h3>
-                      <p className="text-sm font-medium text-slate-300">{exp.company}</p>
+                      <p className="text-sm font-medium text-slate-800">{exp.company}</p>
                     </div>
                     <div className="text-right md:text-right text-xs font-mono">
-                      <span className="text-emerald-400 bg-emerald-950/30 border border-emerald-900/30 px-3 py-1 rounded-full inline-block mb-1">
+                      <span className="text-rose-700 bg-pink-200/50 border border-pink-300 px-3 py-1 rounded-full inline-block mb-1">
                         {exp.period}
                       </span>
-                      <p className="text-slate-500 mt-1">{exp.location}</p>
+                      <p className="text-slate-800 mt-1">{exp.location}</p>
                     </div>
                   </div>
 
-                  <ul className="space-y-2 text-slate-400 text-sm list-none pl-0">
+                  <ul className="space-y-2 text-slate-800 text-sm list-none pl-0">
                     {exp.bullets.map((bullet, bIdx) => (
                       <li key={bIdx} className="flex gap-2.5 items-start">
-                        <span className="text-emerald-400 mt-1 flex-shrink-0 font-bold">•</span>
+                        <span className="text-rose-600 mt-1 flex-shrink-0 font-bold">•</span>
                         <span>{bullet}</span>
                       </li>
                     ))}
@@ -1227,8 +1227,8 @@ export default function BentoGrid() {
         {/* SECTION 5: CREDENTIALS & SKILLS */}
         <div className="mb-24">
           <div className="mb-10 text-center md:text-left">
-            <h2 className="text-3xl font-extrabold text-white tracking-tight mb-2">Qualifications & Skills</h2>
-            <p className="text-slate-400 text-sm max-w-xl">
+            <h2 className="text-3xl font-extrabold text-pink-600 tracking-tight mb-2">Qualifications & Skills</h2>
+            <p className="text-slate-800 text-sm max-w-xl">
               Academic credentials, mathematics research achievements, and technical skill matrices.
             </p>
           </div>
@@ -1241,32 +1241,32 @@ export default function BentoGrid() {
               onMouseEnter={e => handleMouseEnterCard(e, 3)}
               onMouseMove={e => handleMouseMoveCard(e, 3)}
               onMouseLeave={e => handleMouseLeaveCard(e, 3)}
-              className="bento-card md:col-span-2 bg-[#0b0f19]/40 backdrop-blur-xl border border-slate-900 rounded-[32px] p-8 flex flex-col justify-between shadow-2xl relative overflow-hidden transition-all duration-200 cursor-default"
+              className="bento-card md:col-span-2 bg-white/60 backdrop-blur-xl border border-pink-200 rounded-[32px] p-8 flex flex-col justify-between shadow-2xl relative overflow-hidden transition-all duration-200 cursor-default"
               style={{
                 backgroundImage: 'radial-gradient(circle 350px at var(--mouse-x, 0px) var(--mouse-y, 0px), rgba(16, 185, 129, 0.06), transparent 80%)'
               }}
             >
               <div>
-                <h3 className="text-xl font-extrabold text-white mb-6 flex items-center gap-3">
-                  <BookOpen className="w-5 h-5 text-cyan-400" />
+                <h3 className="text-xl font-extrabold text-pink-600 mb-6 flex items-center gap-3">
+                  <BookOpen className="w-5 h-5 text-pink-600" />
                   Technical Matrix
                 </h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  <div className="bg-slate-950/60 p-4 rounded-2xl border border-slate-900 hover:border-slate-800 transition-colors">
-                    <h4 className="text-xs font-extrabold text-cyan-400 uppercase tracking-widest mb-1.5">Languages</h4>
-                    <p className="text-slate-300 text-sm leading-relaxed">TypeScript, JavaScript, Python, SQL, C#, Java, R, HTML5/CSS3</p>
+                  <div className="bg-pink-50/60 p-4 rounded-2xl border border-pink-200 hover:border-pink-200 transition-colors">
+                    <h4 className="text-xs font-extrabold text-pink-600 uppercase tracking-widest mb-1.5">Languages</h4>
+                    <p className="text-slate-800 text-sm leading-relaxed">TypeScript, JavaScript, Python, SQL, C#, Java, R, HTML5/CSS3</p>
                   </div>
-                  <div className="bg-slate-950/60 p-4 rounded-2xl border border-slate-900 hover:border-slate-800 transition-colors">
-                    <h4 className="text-xs font-extrabold text-emerald-400 uppercase tracking-widest mb-1.5">AI Integrations</h4>
-                    <p className="text-slate-300 text-sm leading-relaxed">OpenAI API, local model orchestration (Ollama), Whisper runtimes, RAG pipelines, Vector databases</p>
+                  <div className="bg-pink-50/60 p-4 rounded-2xl border border-pink-200 hover:border-pink-200 transition-colors">
+                    <h4 className="text-xs font-extrabold text-rose-600 uppercase tracking-widest mb-1.5">AI Integrations</h4>
+                    <p className="text-slate-800 text-sm leading-relaxed">OpenAI API, local model orchestration (Ollama), Whisper runtimes, RAG pipelines, Vector databases</p>
                   </div>
-                  <div className="bg-slate-950/60 p-4 rounded-2xl border border-slate-900 hover:border-slate-800 transition-colors">
-                    <h4 className="text-xs font-extrabold text-cyan-400 uppercase tracking-widest mb-1.5">Frameworks & ORMs</h4>
-                    <p className="text-slate-300 text-sm leading-relaxed">React, Next.js, Node.js, Express, Flask APIs, WebSockets, Prisma ORM</p>
+                  <div className="bg-pink-50/60 p-4 rounded-2xl border border-pink-200 hover:border-pink-200 transition-colors">
+                    <h4 className="text-xs font-extrabold text-pink-600 uppercase tracking-widest mb-1.5">Frameworks & ORMs</h4>
+                    <p className="text-slate-800 text-sm leading-relaxed">React, Next.js, Node.js, Express, Flask APIs, WebSockets, Prisma ORM</p>
                   </div>
-                  <div className="bg-slate-950/60 p-4 rounded-2xl border border-slate-900 hover:border-slate-800 transition-colors">
-                    <h4 className="text-xs font-extrabold text-emerald-400 uppercase tracking-widest mb-1.5">System & Infrastructure</h4>
-                    <p className="text-slate-300 text-sm leading-relaxed">Docker, Docker Compose, Git version control, Linux CLI, Bash scripting</p>
+                  <div className="bg-pink-50/60 p-4 rounded-2xl border border-pink-200 hover:border-pink-200 transition-colors">
+                    <h4 className="text-xs font-extrabold text-rose-600 uppercase tracking-widest mb-1.5">System & Infrastructure</h4>
+                    <p className="text-slate-800 text-sm leading-relaxed">Docker, Docker Compose, Git version control, Linux CLI, Bash scripting</p>
                   </div>
                 </div>
               </div>
@@ -1278,7 +1278,7 @@ export default function BentoGrid() {
               onMouseEnter={e => handleMouseEnterCard(e, 4)}
               onMouseMove={e => handleMouseMoveCard(e, 4)}
               onMouseLeave={e => handleMouseLeaveCard(e, 4)}
-              className="bento-card bg-gradient-to-br from-slate-950/95 to-[#0b0e17]/95 border border-slate-900 rounded-[32px] p-6 flex flex-col justify-between shadow-2xl relative overflow-hidden group transition-all duration-200 cursor-default"
+              className="bento-card bg-gradient-to-br from-slate-950/95 to-[#0b0e17]/95 border border-pink-200 rounded-[32px] p-6 flex flex-col justify-between shadow-2xl relative overflow-hidden group transition-all duration-200 cursor-default"
               style={{
                 backgroundImage: 'radial-gradient(circle 200px at var(--mouse-x, 0px) var(--mouse-y, 0px), rgba(245, 158, 11, 0.08), transparent 80%)'
               }}
@@ -1288,24 +1288,24 @@ export default function BentoGrid() {
                 <div className="p-3 bg-amber-500/10 border border-amber-500/20 text-amber-500 rounded-2xl inline-flex mb-6">
                   <Award className="w-6 h-6" />
                 </div>
-                <h3 className="text-lg font-bold text-white mb-4">Honors & Awards</h3>
+                <h3 className="text-lg font-bold text-pink-600 mb-4">Honors & Awards</h3>
                 
                 <div className="space-y-4">
                   <div>
                     <span className="text-[9px] text-amber-500 font-mono font-bold uppercase tracking-wider block">MSU Billings Math Department</span>
-                    <h4 className="text-sm font-extrabold text-white">Outstanding Scholar Award</h4>
-                    <p className="text-slate-400 text-xs mt-0.5 leading-relaxed">Top academic honors in Mathematics & Data Science concentrations.</p>
+                    <h4 className="text-sm font-extrabold text-pink-600">Outstanding Scholar Award</h4>
+                    <p className="text-slate-800 text-xs mt-0.5 leading-relaxed">Top academic honors in Mathematics & Data Science concentrations.</p>
                   </div>
-                  <div className="h-px bg-slate-900" />
+                  <div className="h-px bg-pink-100" />
                   <div>
-                    <span className="text-[9px] text-cyan-400 font-mono font-bold uppercase tracking-wider block">MSU Billings Housing</span>
-                    <h4 className="text-sm font-extrabold text-white">Outstanding RA Award</h4>
-                    <p className="text-slate-400 text-xs mt-0.5 leading-relaxed">Recognized for excellence in community mentorship and logistics coordination.</p>
+                    <span className="text-[9px] text-pink-600 font-mono font-bold uppercase tracking-wider block">MSU Billings Housing</span>
+                    <h4 className="text-sm font-extrabold text-pink-600">Outstanding RA Award</h4>
+                    <p className="text-slate-800 text-xs mt-0.5 leading-relaxed">Recognized for excellence in community mentorship and logistics coordination.</p>
                   </div>
                 </div>
               </div>
               
-              <div className="text-[10px] text-slate-500 font-mono mt-6 uppercase">
+              <div className="text-[10px] text-slate-800 font-mono mt-6 uppercase">
                 Academic Honors
               </div>
             </div>
@@ -1316,34 +1316,34 @@ export default function BentoGrid() {
               onMouseEnter={e => handleMouseEnterCard(e, 5)}
               onMouseMove={e => handleMouseMoveCard(e, 5)}
               onMouseLeave={e => handleMouseLeaveCard(e, 5)}
-              className="bento-card md:col-span-2 bg-[#0b0f19]/40 backdrop-blur-xl border border-slate-900 rounded-[32px] p-8 flex flex-col justify-between shadow-2xl relative overflow-hidden transition-all duration-200 cursor-default"
+              className="bento-card md:col-span-2 bg-white/60 backdrop-blur-xl border border-pink-200 rounded-[32px] p-8 flex flex-col justify-between shadow-2xl relative overflow-hidden transition-all duration-200 cursor-default"
               style={{
                 backgroundImage: 'radial-gradient(circle 350px at var(--mouse-x, 0px) var(--mouse-y, 0px), rgba(6, 182, 212, 0.06), transparent 80%)'
               }}
             >
               <div>
-                <h3 className="text-xl font-extrabold text-white mb-6 flex items-center gap-3">
-                  <BookOpen className="w-5 h-5 text-emerald-400" />
+                <h3 className="text-xl font-extrabold text-pink-600 mb-6 flex items-center gap-3">
+                  <BookOpen className="w-5 h-5 text-rose-600" />
                   Education Credentials
                 </h3>
                 <div className="space-y-6">
                   <div className="flex gap-4 items-start">
-                    <div className="p-2 bg-slate-950 rounded-xl border border-slate-900 text-slate-500 text-xs font-mono mt-0.5">B.S.</div>
+                    <div className="p-2 bg-pink-50 rounded-xl border border-pink-200 text-slate-800 text-xs font-mono mt-0.5">B.S.</div>
                     <div>
-                      <h4 className="font-bold text-white text-base">Bachelor of Science in Mathematics</h4>
-                      <p className="text-xs text-emerald-400 font-medium">Data Science Concentration • Montana State University Billings</p>
-                      <p className="text-slate-400 text-xs mt-1">Graduated December 2025 | GPA: 3.25</p>
+                      <h4 className="font-bold text-pink-600 text-base">Bachelor of Science in Mathematics</h4>
+                      <p className="text-xs text-rose-600 font-medium">Data Science Concentration • Montana State University Billings</p>
+                      <p className="text-slate-800 text-xs mt-1">Graduated December 2025 | GPA: 3.25</p>
                     </div>
                   </div>
                   
-                  <div className="h-px bg-slate-900" />
+                  <div className="h-px bg-pink-100" />
 
                   <div className="flex gap-4 items-start">
-                    <div className="p-2 bg-slate-950 rounded-xl border border-slate-900 text-slate-500 text-xs font-mono mt-0.5">A.A.S.</div>
+                    <div className="p-2 bg-pink-50 rounded-xl border border-pink-200 text-slate-800 text-xs font-mono mt-0.5">A.A.S.</div>
                     <div>
-                      <h4 className="font-bold text-white text-base">Associate of Applied Science in Computer Programming</h4>
-                      <p className="text-xs text-cyan-400 font-medium">Application Development Focus • Montana State University Billings</p>
-                      <p className="text-slate-400 text-xs mt-1">Graduated May 2024 | GPA: 3.20</p>
+                      <h4 className="font-bold text-pink-600 text-base">Associate of Applied Science in Computer Programming</h4>
+                      <p className="text-xs text-pink-600 font-medium">Application Development Focus • Montana State University Billings</p>
+                      <p className="text-slate-800 text-xs mt-1">Graduated May 2024 | GPA: 3.20</p>
                     </div>
                   </div>
                 </div>
@@ -1356,34 +1356,34 @@ export default function BentoGrid() {
               onMouseEnter={e => handleMouseEnterCard(e, 6)}
               onMouseMove={e => handleMouseMoveCard(e, 6)}
               onMouseLeave={e => handleMouseLeaveCard(e, 6)}
-              className="bento-card bg-[#0b0f19]/40 backdrop-blur-xl border border-slate-900 rounded-[32px] p-6 flex flex-col justify-between shadow-2xl relative overflow-hidden transition-all duration-200 cursor-default"
+              className="bento-card bg-white/60 backdrop-blur-xl border border-pink-200 rounded-[32px] p-6 flex flex-col justify-between shadow-2xl relative overflow-hidden transition-all duration-200 cursor-default"
               style={{
                 backgroundImage: 'radial-gradient(circle 200px at var(--mouse-x, 0px) var(--mouse-y, 0px), rgba(16, 185, 129, 0.06), transparent 80%)'
               }}
             >
               <div>
-                <h3 className="text-lg font-bold text-white mb-4">Certifications & Research</h3>
+                <h3 className="text-lg font-bold text-pink-600 mb-4">Certifications & Research</h3>
                 
                 <div className="space-y-4">
                   <div>
-                    <span className="text-[9px] text-cyan-400 font-mono font-bold uppercase tracking-wider block">HackerRank Certifications</span>
-                    <h4 className="text-xs font-bold text-slate-200 mt-1">SQL (Intermediate) • Aug 2024</h4>
-                    <h4 className="text-xs font-bold text-slate-200">Python (Basic) • Dec 2025</h4>
+                    <span className="text-[9px] text-pink-600 font-mono font-bold uppercase tracking-wider block">HackerRank Certifications</span>
+                    <h4 className="text-xs font-bold text-slate-700 mt-1">SQL (Intermediate) • Aug 2024</h4>
+                    <h4 className="text-xs font-bold text-slate-700">Python (Basic) • Dec 2025</h4>
                   </div>
                   
-                  <div className="h-px bg-slate-900" />
+                  <div className="h-px bg-pink-100" />
                   
                   <div>
-                    <span className="text-[9px] text-emerald-400 font-mono font-bold uppercase tracking-wider block">Academic Research Paper</span>
-                    <h4 className="text-xs font-bold text-slate-200 mt-1">GPS Signal Attenuation Study</h4>
-                    <p className="text-slate-400 text-[10px] mt-0.5 leading-relaxed">
+                    <span className="text-[9px] text-rose-600 font-mono font-bold uppercase tracking-wider block">Academic Research Paper</span>
+                    <h4 className="text-xs font-bold text-slate-700 mt-1">GPS Signal Attenuation Study</h4>
+                    <p className="text-slate-800 text-[10px] mt-0.5 leading-relaxed">
                       Co-authored statistical models mapping satellite signal degradation against precipitation records.
                     </p>
                   </div>
                 </div>
               </div>
               
-              <div className="text-[10px] text-slate-500 font-mono mt-6 uppercase">
+              <div className="text-[10px] text-slate-800 font-mono mt-6 uppercase">
                 Credentials List
               </div>
             </div>

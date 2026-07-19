@@ -64,22 +64,22 @@ const Experience = () => {
   }, []);
 
   return (
-    <section id="experience" className="py-24 px-4 min-h-screen bg-slate-950" ref={sectionRef}>
+    <section id="experience" className="py-24 px-4 min-h-screen bg-pink-50" ref={sectionRef}>
       <div className="max-w-4xl mx-auto w-full">
-        <h2 className="text-4xl md:text-5xl font-bold mb-12 text-white exp-card">Professional Experience</h2>
+        <h2 className="text-4xl md:text-5xl font-bold mb-12 text-pink-600 exp-card">Professional Experience</h2>
         <div className="space-y-8">
           {experiences.map((exp, index) => (
             <div key={index} className="exp-card relative pl-8 border-l-2 border-indigo-500/50 pb-8 last:pb-0">
               <div className="absolute w-4 h-4 bg-indigo-500 rounded-full -left-[9px] top-1 ring-4 ring-slate-900"></div>
-              <div className="bg-slate-800/40 p-6 rounded-2xl backdrop-blur-sm border border-slate-700/50 hover:bg-slate-800/60 transition-colors">
+              <div className="bg-white/40 p-6 rounded-2xl backdrop-blur-sm border border-pink-200/50 hover:bg-white/60 transition-colors">
                 <div className="flex flex-wrap justify-between items-start mb-4">
                   <div>
-                    <h3 className="text-2xl font-semibold text-white">{exp.role}</h3>
-                    <p className="text-indigo-400 font-medium text-lg">{exp.company} <span className="text-slate-500 text-sm ml-2">| {exp.location}</span></p>
+                    <h3 className="text-2xl font-semibold text-pink-600">{exp.role}</h3>
+                    <p className="text-rose-500 font-medium text-lg">{exp.company} <span className="text-slate-800 text-sm ml-2">| {exp.location}</span></p>
                   </div>
-                  <span className="text-slate-400 text-sm bg-slate-900/50 px-3 py-1 rounded-full mt-2 sm:mt-0">{exp.date}</span>
+                  <span className="text-slate-800 text-sm bg-pink-100/50 px-3 py-1 rounded-full mt-2 sm:mt-0">{exp.date}</span>
                 </div>
-                <ul className="list-disc list-inside text-slate-300 space-y-2 text-sm md:text-base">
+                <ul className="list-disc list-inside text-slate-800 space-y-2 text-sm md:text-base">
                   {exp.details.map((detail, i) => (
                     <li key={i} className="leading-relaxed">{detail}</li>
                   ))}
