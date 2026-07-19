@@ -85,12 +85,13 @@ export default function BentoGrid() {
       type: 'Quantitative Research'
     },
     {
-      title: 'Mommy\'s Heart Web Ecosystem',
-      tagline: 'Volunteer Development Projects',
-      desc: 'Volunteered to develop and optimize database architectures, cataloging processes, and frontend features for a prominent national nonprofit organization helping domestic abuse survivors.',
-      tech: ['PHP', 'Laravel', 'MySQL', 'JavaScript', 'REST APIs'],
-      github: '#',
-      type: 'Volunteer Full Stack'
+      title: 'GreenConnect 2.0',
+      tagline: 'Developer Social Network',
+      desc: 'Built a premium developer social platform featuring interactive posts, comments, likes, mutual follow mapping, and a digital gift cards exchange center. Integrated Laravel Sanctum for API token-based management.',
+      tech: ['PHP', 'Laravel', 'Sanctum', 'SQLite', 'Tailwind CSS', 'Vite'],
+      github: 'https://github.com/Ayjeren004/GreenConnect2',
+      demo: 'http://127.0.0.1:8001',
+      type: 'Full Stack & API Design'
     }
   ];
 
