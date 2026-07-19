@@ -36,10 +36,11 @@ const projects = [
   {
     title: 'GPS Satellite Data Visualization',
     type: 'Academic Research',
-    description: 'Co-authored scientific research modeling environmental data. Built 3D visual dashboards to track and analyze GPS satellite transmission loss and transmissivity.',
+    description: 'Accepted for publication in POS Journal (Aug 2026). Co-authored scientific research modeling environmental data. Built 3D visual dashboards to track and analyze GPS satellite transmission loss and transmissivity.',
     tech: ['Data Modeling', '3D Visualization', 'Data Science', 'Mathematics'],
     icon: <Code2 className="w-8 h-8 text-rose-600" />,
     featured: false,
+    link: 'https://www.youtube.com/watch?v=FqIQtUu4WA8'
   },
   {
     title: 'Niko OS',
