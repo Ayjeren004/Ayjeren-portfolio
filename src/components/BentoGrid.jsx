@@ -90,7 +90,7 @@ export default function BentoGrid() {
       desc: 'Built an interactive social platform for eco-conscious advocates to share sustainability ideas, log posts, follow green initiatives, and exchange digital gifts. Integrated Laravel Sanctum for secure API management.',
       tech: ['PHP', 'Laravel', 'Sanctum', 'SQLite', 'Tailwind CSS', 'Vite'],
       github: 'https://github.com/Ayjeren004/GreenConnect2',
-      demo: 'http://127.0.0.1:8001',
+      demo: 'https://greenconnect2.onrender.com',
       type: 'Full Stack & API Design'
     }
   ];
