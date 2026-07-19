@@ -40,6 +40,16 @@ const projects = [
     tech: ['Data Modeling', '3D Visualization', 'Data Science', 'Mathematics'],
     icon: <Code2 className="w-8 h-8 text-emerald-400" />,
     featured: false,
+  },
+  {
+    title: 'Niko OS',
+    type: 'Interactive Web OS',
+    description: 'A fully interactive, web-based operating system experience showcasing advanced frontend architecture and state management.',
+    tech: ['React', 'Frontend', 'Vercel'],
+    icon: <Server className="w-8 h-8 text-cyan-400" />,
+    featured: true,
+    link: 'https://niko-os.vercel.app',
+    repo: '#'
   }
 ];
 
