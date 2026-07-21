@@ -34,6 +34,16 @@ const projects = [
     repo: 'https://github.com/Ayjeren004/callara'
   },
   {
+    title: '3CX Odoo CRM Phone Simulator',
+    type: 'VoIP Integration Case Study',
+    description: 'Designed a high-throughput voice ingestion pipeline. Built a live softphone dialer matching inbound call webhooks to Odoo database records, displaying automated screen popups with customer metadata and order records.',
+    tech: ['Node.js', 'TypeScript', 'MySQL', 'Python', '3CX Webhooks'],
+    icon: <Server className="w-8 h-8 text-rose-500" />,
+    featured: true,
+    link: 'https://ayjeren-crm-simulator.web.app',
+    repo: 'https://github.com/Ayjeren004/3cx-crm-simulator'
+  },
+  {
     title: 'GPS Satellite Data Visualization',
     type: 'Academic Research',
     description: 'Accepted for publication in POS Journal (Aug 2026). Co-authored scientific research modeling environmental data. Built 3D visual dashboards to track and analyze GPS satellite transmission loss and transmissivity.',

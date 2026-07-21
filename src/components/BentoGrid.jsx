@@ -77,6 +77,15 @@ export default function BentoGrid() {
       type: 'AI & Full Stack'
     },
     {
+      title: '3CX Odoo CRM Simulator',
+      tagline: 'VoIP Ingestion Inbound Flow',
+      desc: 'Designed and implemented a database ingestion pipeline validating 400,000+ operational records daily. Integrated Whisper AI models to automatically catalog metadata from 10,000+ customer call logs and trigger live Odoo CRM screen popups.',
+      tech: ['Node.js', 'TypeScript', 'MySQL', 'Python', 'Whisper API'],
+      github: 'https://github.com/Ayjeren004/3cx-crm-simulator',
+      demo: 'https://ayjeren-crm-simulator.web.app',
+      type: 'Data Engineering & VoIP'
+    },
+    {
       title: 'GPS Signal Attenuation Research',
       tagline: 'Atmospheric Attenuation Studies',
       desc: 'Accepted for publication (Aug 2026, POS Journal). Co-authored statistical modeling research analyzing precipitation-induced satellite signal degradation.',
