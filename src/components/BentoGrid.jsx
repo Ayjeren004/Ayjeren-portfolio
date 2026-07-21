@@ -598,14 +598,14 @@ export default function BentoGrid() {
               </div>
               
               <form onSubmit={handleConsoleSubmit} className="flex border-t border-pink-200 bg-pink-50/40">
-                <span className="flex items-center pl-6 text-pink-600 font-mono text-xs">$</span>
+                <span className="flex items-center pl-6 text-pink-600 font-mono text-sm">$</span>
                 <input 
                   type="text"
                   value={consoleInput}
                   onChange={e => setConsoleInput(e.target.value)}
                   disabled={isTyping}
                   placeholder="Type 'about', 'skills', 'projects', 'diagnostics'..."
-                  className="w-full bg-transparent border-0 outline-none focus:ring-0 text-pink-600 font-mono text-xs py-4.5 px-3 disabled:text-slate-800"
+                  className="w-full bg-transparent border-0 outline-none focus:ring-0 text-pink-600 font-mono text-sm py-4.5 px-3 disabled:text-slate-800"
                 />
                 <button type="submit" className="px-6 hover:bg-pink-50 text-pink-600 transition-colors" disabled={isTyping}>
                   <ChevronRight className="w-4 h-4" />
