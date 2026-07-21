@@ -24,14 +24,14 @@ const projects = [
     repo: '#'
   },
   {
-    title: 'AI Telephony & Sentiment Pipeline',
-    type: 'Architecture Case Study',
-    description: 'Processed over 400,000 VoIP records using an asynchronous Python pipeline. Transcribed audio locally with Whisper and analyzed sentiment via the Claude API, displaying results on a custom Flask dashboard.',
-    tech: ['Python', 'Whisper', 'Ollama', 'Claude API', 'Flask', 'MySQL'],
+    title: 'Callara: AI Telephony & QA Pipeline',
+    type: 'Featured Showcase Project',
+    description: 'Developer dashboard and call intelligence simulator. Transcribes voice calls with Whisper, runs sentiment parsing, and evaluates custom QA criteria checks using LLM rules. Provides secret key generation and SDK snippets.',
+    tech: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Whisper', 'LLMs'],
     icon: <Server className="w-8 h-8 text-rose-500" />,
     featured: true,
-    link: 'http://localhost:5001',
-    repo: '#'
+    link: 'https://callara.vercel.app',
+    repo: 'https://github.com/Ayjeren004/callara'
   },
   {
     title: 'GPS Satellite Data Visualization',
@@ -88,10 +88,10 @@ const Projects = () => {
           {projects.map((project, idx) => (
             <div 
               key={idx} 
-              className={`project-card group relative p-8 rounded-3xl backdrop-blur-sm border transition-all duration-300 flex flex-col h-full
+              className={`project-card group relative p-8 rounded-3xl  border transition-all duration-300 flex flex-col h-full
                 ${project.featured 
-                  ? 'bg-rose-100/20 border-indigo-500/50 hover:bg-rose-100/30 lg:col-span-2 lg:flex-row gap-8 shadow-xl shadow-pink-100 shadow-rose-200/20' 
-                  : 'bg-white/40 border-pink-200/50 hover:bg-white/60'
+                  ? 'bg-rose-50 border-indigo-500/50 hover:bg-rose-100/30 lg:col-span-2 lg:flex-row gap-8 shadow-xl shadow-pink-100 shadow-rose-200/20' 
+                  : 'bg-white border-pink-200/50 hover:bg-white/60'
                 }`}
             >
               <div className="mb-6 lg:mb-0 flex-shrink-0">

@@ -68,13 +68,13 @@ export default function BentoGrid() {
       type: 'AI & Speech Recognition'
     },
     {
-      title: 'VoIP Ingestion Inbound Flow',
-      tagline: 'High-Throughput VoIP Pipeline',
-      desc: 'Designed and implemented a database ingestion pipeline validating 400,000+ operational records daily. Integrated Whisper AI models to automatically catalog metadata from 10,000+ customer call logs.',
-      tech: ['Node.js', 'TypeScript', 'MySQL', 'Python', 'Whisper API'],
-      github: 'https://github.com/Ayjeren004/3cx-crm-simulator',
-      demo: 'https://ayjeren-crm-simulator.web.app',
-      type: 'Data Engineering'
+      title: 'Callara',
+      tagline: 'AI Telephony & QA Compliance Portal',
+      desc: 'Architected a developer dashboard and call intelligence simulator. Transcribes voice calls with Whisper, runs sentiment parsing, and evaluates custom QA criteria checks using LLM rules. Provides API key managers and SDK snippets.',
+      tech: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Whisper', 'LLM QA Rules'],
+      github: 'https://github.com/Ayjeren004/callara',
+      demo: 'https://callara.vercel.app',
+      type: 'AI & Full Stack'
     },
     {
       title: 'GPS Signal Attenuation Research',
@@ -448,7 +448,7 @@ export default function BentoGrid() {
   };
 
   return (
-    <div className="relative w-full min-h-screen bg-pink-100 text-slate-800 font-sans overflow-hidden">
+    <div className="relative w-full min-h-screen text-slate-800 font-sans overflow-hidden bg-transparent">
       
       {/* Tech Grid Pattern */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#fbcfe8_1px,transparent_1px),linear-gradient(to_bottom,#fbcfe8_1px,transparent_1px)] bg-[size:3.5rem_3.5rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] opacity-45 pointer-events-none" />
@@ -462,7 +462,7 @@ export default function BentoGrid() {
         {/* SECTION 1: ELEGANT HERO INTRO (Premium Glassmorphic Banner) */}
         <header 
           ref={el => cardsRef.current[7] = el}
-          className="bento-card py-12 px-8 md:py-16 md:px-16 flex flex-col md:flex-row gap-10 justify-between items-center bg-white/60 backdrop-blur-xl border border-pink-200/80 rounded-[40px] shadow-2xl relative overflow-hidden mb-16 mt-8 cursor-default"
+          className="bento-card py-12 px-8 md:py-16 md:px-16 flex flex-col md:flex-row gap-10 justify-between items-center bg-white  border border-pink-200/80 rounded-[40px] shadow-2xl relative overflow-hidden mb-16 mt-8 cursor-default"
           style={{
             backgroundImage: 'radial-gradient(circle 500px at var(--mouse-x, 0px) var(--mouse-y, 0px), rgba(16, 185, 129, 0.05), transparent 80%)'
           }}
@@ -550,7 +550,7 @@ export default function BentoGrid() {
               onMouseEnter={e => handleMouseEnterCard(e, 0)}
               onMouseMove={e => handleMouseMoveCard(e, 0)}
               onMouseLeave={e => handleMouseLeaveCard(e, 0)}
-              className="bento-card bg-white/60 backdrop-blur-xl border border-pink-200 rounded-[32px] overflow-hidden flex flex-col justify-between shadow-2xl relative transition-all duration-200 cursor-default"
+              className="bento-card bg-white  border border-pink-200 rounded-[32px] overflow-hidden flex flex-col justify-between shadow-2xl relative transition-all duration-200 cursor-default"
               style={{
                 backgroundImage: 'radial-gradient(circle 350px at var(--mouse-x, 0px) var(--mouse-y, 0px), rgba(6, 182, 212, 0.06), transparent 80%)'
               }}
@@ -613,7 +613,7 @@ export default function BentoGrid() {
                 onMouseEnter={e => handleMouseEnterCard(e, 1)}
                 onMouseMove={e => handleMouseMoveCard(e, 1)}
                 onMouseLeave={e => handleMouseLeaveCard(e, 1)}
-                className="bento-card bg-white/60 backdrop-blur-xl border border-pink-200 rounded-[32px] p-6 flex flex-col justify-between shadow-2xl relative overflow-hidden transition-all duration-200 cursor-default min-h-[340px]"
+                className="bento-card bg-white  border border-pink-200 rounded-[32px] p-6 flex flex-col justify-between shadow-2xl relative overflow-hidden transition-all duration-200 cursor-default min-h-[340px]"
                 style={{
                   backgroundImage: 'radial-gradient(circle 350px at var(--mouse-x, 0px) var(--mouse-y, 0px), rgba(139, 92, 246, 0.06), transparent 80%)'
                 }}
@@ -1049,7 +1049,7 @@ export default function BentoGrid() {
                 onMouseEnter={e => handleMouseEnterCard(e, 2)}
                 onMouseMove={e => handleMouseMoveCard(e, 2)}
                 onMouseLeave={e => handleMouseLeaveCard(e, 2)}
-                className="bento-card bg-white/60 backdrop-blur-xl border border-pink-200 rounded-[32px] p-6 flex flex-col justify-between shadow-2xl relative overflow-hidden transition-all duration-200 cursor-default"
+                className="bento-card bg-white  border border-pink-200 rounded-[32px] p-6 flex flex-col justify-between shadow-2xl relative overflow-hidden transition-all duration-200 cursor-default"
                 style={{
                   backgroundImage: 'radial-gradient(circle 350px at var(--mouse-x, 0px) var(--mouse-y, 0px), rgba(6, 182, 212, 0.06), transparent 80%)'
                 }}
@@ -1132,7 +1132,7 @@ export default function BentoGrid() {
             {projects.map((project, idx) => (
               <div 
                 key={idx}
-                className="bg-white/60 border border-pink-200 hover:border-pink-200/80 rounded-[28px] p-8 flex flex-col justify-between shadow-xl transition-all duration-300 group hover:-translate-y-1"
+                className="bg-white border border-pink-200 hover:border-pink-200/80 rounded-[28px] p-8 flex flex-col justify-between shadow-xl transition-all duration-300 group hover:-translate-y-1"
               >
                 <div>
                   <div className="flex justify-between items-start mb-4">
@@ -1195,7 +1195,7 @@ export default function BentoGrid() {
                   <div className="w-1.5 h-1.5 rounded-full bg-white group-hover:bg-pink-500 transition-colors" />
                 </div>
 
-                <div className="bg-white/60 border border-pink-200 hover:border-pink-300 rounded-2xl p-6 transition-all duration-300 group-hover:bg-white/60">
+                <div className="bg-white border border-pink-200 hover:border-pink-300 rounded-2xl p-6 transition-all duration-300 group-hover:bg-white">
                   <div className="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-4">
                     <div>
                       <h3 className="text-xl font-bold text-pink-600 group-hover:text-rose-600 transition-colors">
@@ -1242,7 +1242,7 @@ export default function BentoGrid() {
               onMouseEnter={e => handleMouseEnterCard(e, 3)}
               onMouseMove={e => handleMouseMoveCard(e, 3)}
               onMouseLeave={e => handleMouseLeaveCard(e, 3)}
-              className="bento-card md:col-span-2 bg-white/60 backdrop-blur-xl border border-pink-200 rounded-[32px] p-8 flex flex-col justify-between shadow-2xl relative overflow-hidden transition-all duration-200 cursor-default"
+              className="bento-card md:col-span-2 bg-white  border border-pink-200 rounded-[32px] p-8 flex flex-col justify-between shadow-2xl relative overflow-hidden transition-all duration-200 cursor-default"
               style={{
                 backgroundImage: 'radial-gradient(circle 350px at var(--mouse-x, 0px) var(--mouse-y, 0px), rgba(16, 185, 129, 0.06), transparent 80%)'
               }}
@@ -1279,7 +1279,7 @@ export default function BentoGrid() {
               onMouseEnter={e => handleMouseEnterCard(e, 4)}
               onMouseMove={e => handleMouseMoveCard(e, 4)}
               onMouseLeave={e => handleMouseLeaveCard(e, 4)}
-              className="bento-card bg-white/60 backdrop-blur-xl border border-pink-200 rounded-[32px] p-6 flex flex-col justify-between shadow-2xl relative overflow-hidden group transition-all duration-200 cursor-default"
+              className="bento-card bg-white  border border-pink-200 rounded-[32px] p-6 flex flex-col justify-between shadow-2xl relative overflow-hidden group transition-all duration-200 cursor-default"
               style={{
                 backgroundImage: 'radial-gradient(circle 200px at var(--mouse-x, 0px) var(--mouse-y, 0px), rgba(244, 63, 94, 0.08), transparent 80%)'
               }}
@@ -1317,7 +1317,7 @@ export default function BentoGrid() {
               onMouseEnter={e => handleMouseEnterCard(e, 5)}
               onMouseMove={e => handleMouseMoveCard(e, 5)}
               onMouseLeave={e => handleMouseLeaveCard(e, 5)}
-              className="bento-card md:col-span-2 bg-white/60 backdrop-blur-xl border border-pink-200 rounded-[32px] p-8 flex flex-col justify-between shadow-2xl relative overflow-hidden transition-all duration-200 cursor-default"
+              className="bento-card md:col-span-2 bg-white  border border-pink-200 rounded-[32px] p-8 flex flex-col justify-between shadow-2xl relative overflow-hidden transition-all duration-200 cursor-default"
               style={{
                 backgroundImage: 'radial-gradient(circle 350px at var(--mouse-x, 0px) var(--mouse-y, 0px), rgba(6, 182, 212, 0.06), transparent 80%)'
               }}
@@ -1357,7 +1357,7 @@ export default function BentoGrid() {
               onMouseEnter={e => handleMouseEnterCard(e, 6)}
               onMouseMove={e => handleMouseMoveCard(e, 6)}
               onMouseLeave={e => handleMouseLeaveCard(e, 6)}
-              className="bento-card bg-white/60 backdrop-blur-xl border border-pink-200 rounded-[32px] p-6 flex flex-col justify-between shadow-2xl relative overflow-hidden transition-all duration-200 cursor-default"
+              className="bento-card bg-white  border border-pink-200 rounded-[32px] p-6 flex flex-col justify-between shadow-2xl relative overflow-hidden transition-all duration-200 cursor-default"
               style={{
                 backgroundImage: 'radial-gradient(circle 200px at var(--mouse-x, 0px) var(--mouse-y, 0px), rgba(16, 185, 129, 0.06), transparent 80%)'
               }}
