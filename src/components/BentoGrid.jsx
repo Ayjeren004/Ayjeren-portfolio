@@ -1082,6 +1082,7 @@ export default function BentoGrid() {
                     <option value="Clear Sky">☀️ Clear Sky</option>
                     <option value="Light Rain">🌧️ Light Rain</option>
                     <option value="Heavy Thunderstorm">⛈️ Heavy Storm</option>
+                    <option value="Custom">⚙️ Custom Density</option>
                   </select>
                 </div>
 
@@ -1100,8 +1101,10 @@ export default function BentoGrid() {
                       min="0" 
                       max="100" 
                       value={rainDensity} 
-                      disabled={precipitationMode !== 'Custom' && (precipitationMode && true)}
-                      onChange={e => setRainDensity(parseInt(e.target.value))}
+                      onChange={e => {
+                        setRainDensity(parseInt(e.target.value));
+                        setPrecipitationMode('Custom');
+                      }}
                       className="w-full accent-cyan-500 h-1 bg-pink-100 rounded-lg cursor-pointer"
                     />
                   </div>
