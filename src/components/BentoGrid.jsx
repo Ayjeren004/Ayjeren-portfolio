@@ -99,7 +99,7 @@ export default function BentoGrid() {
   const experiences = [
     {
       role: 'Software Engineer & Data Analyst',
-      company: 'Operations & Logistics Management Firm',
+      company: 'One Stop Management',
       location: 'Brooklyn, NY',
       period: 'Jan 2026 – Jul 2026',
       bullets: [
